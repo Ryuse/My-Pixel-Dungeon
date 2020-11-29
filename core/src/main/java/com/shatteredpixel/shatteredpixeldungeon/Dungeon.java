@@ -201,11 +201,11 @@ public class Dungeon {
 
 		Random.resetGenerators();
 		
-		com.shatteredpixel.shatteredpixeldungeon.Statistics.reset();
+		Statistics.reset();
 		Notes.reset();
 
 		quickslot.reset();
-		com.shatteredpixel.shatteredpixeldungeon.ui.QuickSlotButton.reset();
+		QuickSlotButton.reset();
 		
 		depth = 0;
 		gold = 0;
@@ -242,13 +242,13 @@ public class Dungeon {
 		Actor.clear();
 		
 		depth++;
-		if (depth > com.shatteredpixel.shatteredpixeldungeon.Statistics.deepestFloor) {
-			com.shatteredpixel.shatteredpixeldungeon.Statistics.deepestFloor = depth;
+		if (depth > Statistics.deepestFloor) {
+			Statistics.deepestFloor = depth;
 			
-			if (com.shatteredpixel.shatteredpixeldungeon.Statistics.qualifiedForNoKilling) {
-				com.shatteredpixel.shatteredpixeldungeon.Statistics.completedWithNoKilling = true;
+			if (Statistics.qualifiedForNoKilling) {
+				Statistics.completedWithNoKilling = true;
 			} else {
-				com.shatteredpixel.shatteredpixeldungeon.Statistics.completedWithNoKilling = false;
+				Statistics.completedWithNoKilling = false;
 			}
 		}
 		
@@ -316,12 +316,12 @@ public class Dungeon {
 		}
 		else{
 			level = new DeadEndLevel();
-			com.shatteredpixel.shatteredpixeldungeon.Statistics.deepestFloor--;
+			Statistics.deepestFloor--;
 		}
 
 		level.create();
 		
-		com.shatteredpixel.shatteredpixeldungeon.Statistics.qualifiedForNoKilling = !bossLevel();
+		Statistics.qualifiedForNoKilling = !bossLevel();
 		
 		return level;
 	}
@@ -422,7 +422,11 @@ public class Dungeon {
 
 	public static boolean posNeeded() {
 		//2 POS each floor set
-		int posLeftThisSet = 3 - (LimitedDrops.STRENGTH_POTIONS.count - (depth / 5) * 3);
+		int posLeftThisSet = 3 - (LimitedDrops.STRENGTH_POTIONS.count - (depth / 2) * 2);
+		//1: 3 - 1 = 2
+		//2: 3 - 2 = 1
+		//3: 3 - 3 = 0
+
 		if (posLeftThisSet <= 0) return false;
 
 		int floorThisSet = (depth % 5);
@@ -440,9 +444,9 @@ public class Dungeon {
 		int souLeftThisSet;
 		//3 SOU each floor set, 1.5 (rounded) on forbidden runes challenge
 		if (isChallenged(Challenges.NO_SCROLLS)){
-			souLeftThisSet = Math.round(2f - (LimitedDrops.UPGRADE_SCROLLS.count - (depth / 5) * 2f));
+			souLeftThisSet = Math.round(2f - (LimitedDrops.UPGRADE_SCROLLS.count - (depth / 3) * 2f));
 		} else {
-			souLeftThisSet = 5 - (LimitedDrops.UPGRADE_SCROLLS.count - (depth / 5) * 5);
+			souLeftThisSet = 5 - (LimitedDrops.UPGRADE_SCROLLS.count - (depth / 3) * 3);
 		}
 		if (souLeftThisSet <= 0) return false;
 
@@ -518,7 +522,7 @@ public class Dungeon {
 			SpecialRoom.storeRoomsInBundle( bundle );
 			SecretRoom.storeRoomsInBundle( bundle );
 			
-			com.shatteredpixel.shatteredpixeldungeon.Statistics.storeInBundle( bundle );
+			Statistics.storeInBundle( bundle );
 			Notes.storeInBundle( bundle );
 			Generator.storeInBundle( bundle );
 			
@@ -631,7 +635,7 @@ public class Dungeon {
 		gold = bundle.getInt( GOLD );
 		depth = bundle.getInt( DEPTH );
 		
-		com.shatteredpixel.shatteredpixeldungeon.Statistics.restoreFromBundle( bundle );
+		Statistics.restoreFromBundle( bundle );
 		Generator.restoreFromBundle( bundle );
 
 		droppedItems = new SparseArray<>();
