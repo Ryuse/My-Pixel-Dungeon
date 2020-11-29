@@ -35,13 +35,13 @@
         android:debuggable="true"
         android:fullBackupOnly="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Shattered Pixel Dungeon"
+        android:label="Ryuse&apos;s Pixel Dungeon"
         android:resizeableActivity="true"
         android:testOnly="true"
         android:theme="@android:style/Theme.Black.NoTitleBar" >
         <activity
             android:name="com.shatteredpixel.shatteredpixeldungeon.android.AndroidLauncher"
-            android:label="Shattered Pixel Dungeon" >
+            android:label="Ryuse&apos;s Pixel Dungeon" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -51,7 +51,7 @@
         <activity
             android:name="com.shatteredpixel.shatteredpixeldungeon.android.AndroidGame"
             android:configChanges="keyboard|keyboardHidden|orientation"
-            android:label="Shattered Pixel Dungeon"
+            android:label="Ryuse&apos;s Pixel Dungeon"
             android:screenOrientation="nosensor" >
         </activity>
     </application>
