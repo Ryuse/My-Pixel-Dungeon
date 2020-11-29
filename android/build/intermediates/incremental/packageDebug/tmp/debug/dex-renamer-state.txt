@@ -1,0 +1,4 @@
+#Mon Nov 30 00:50:06 SGT 2020
+base.0=C\:\\Users\\Ryuse\\Desktop\\Pixel Dungeons\\My Pixel Dungeon\\android\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

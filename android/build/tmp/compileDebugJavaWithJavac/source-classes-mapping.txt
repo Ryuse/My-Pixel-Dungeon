@@ -1,0 +1,23 @@
+com/shatteredpixel/shatteredpixeldungeon/android/AndroidPlatformSupport.java
+ com.shatteredpixel.shatteredpixeldungeon.android.AndroidPlatformSupport
+ com.shatteredpixel.shatteredpixeldungeon.android.AndroidPlatformSupport$1
+ com.shatteredpixel.shatteredpixeldungeon.android.AndroidPlatformSupport$2
+ com.shatteredpixel.shatteredpixeldungeon.android.AndroidPlatformSupport$3
+ com.shatteredpixel.shatteredpixeldungeon.android.AndroidPlatformSupport$4
+ com.shatteredpixel.shatteredpixeldungeon.android.AndroidPlatformSupport$4$1
+ com.shatteredpixel.shatteredpixeldungeon.android.AndroidPlatformSupport$5
+com/shatteredpixel/shatteredpixeldungeon/android/AndroidGame.java
+ com.shatteredpixel.shatteredpixeldungeon.android.AndroidGame
+com/shatteredpixel/shatteredpixeldungeon/android/AndroidBackupHandler.java
+ com.shatteredpixel.shatteredpixeldungeon.android.AndroidBackupHandler
+com/shatteredpixel/shatteredpixeldungeon/android/AndroidLauncher.java
+ com.shatteredpixel.shatteredpixeldungeon.android.AndroidLauncher
+com/shatteredpixel/shatteredpixeldungeon/android/BuildConfig.java
+ com.shatteredpixel.shatteredpixeldungeon.android.BuildConfig
+com/shatteredpixel/shatteredpixeldungeon/android/windows/WndAndroidTextInput.java
+ com.shatteredpixel.shatteredpixeldungeon.android.windows.WndAndroidTextInput
+ com.shatteredpixel.shatteredpixeldungeon.android.windows.WndAndroidTextInput$1
+ com.shatteredpixel.shatteredpixeldungeon.android.windows.WndAndroidTextInput$2
+ com.shatteredpixel.shatteredpixeldungeon.android.windows.WndAndroidTextInput$3
+ com.shatteredpixel.shatteredpixeldungeon.android.windows.WndAndroidTextInput$3$1
+ com.shatteredpixel.shatteredpixeldungeon.android.windows.WndAndroidTextInput$4
