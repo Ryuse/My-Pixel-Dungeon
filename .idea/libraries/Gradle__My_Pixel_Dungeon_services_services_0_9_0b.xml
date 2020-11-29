@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: My-Pixel-Dungeon.services.services-0.9.0b">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/services/build/libs/services-0.9.0b.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

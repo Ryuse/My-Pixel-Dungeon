@@ -1,7 +1,5 @@
-com/shatteredpixel/shatteredpixeldungeon/effects/particles/PitfallParticle.java
- com.shatteredpixel.shatteredpixeldungeon.effects.particles.PitfallParticle
- com.shatteredpixel.shatteredpixeldungeon.effects.particles.PitfallParticle$1
- com.shatteredpixel.shatteredpixeldungeon.effects.particles.PitfallParticle$2
+com/shatteredpixel/shatteredpixeldungeon/sprites/LotusSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.LotusSprite
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/tier3/Whip.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.Whip
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/tier5/WarHammer.java
@@ -53,10 +51,8 @@ com/shatteredpixel/shatteredpixeldungeon/items/weapon/Weapon.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.Weapon$Enchantment
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Slime.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Slime
-com/shatteredpixel/shatteredpixeldungeon/effects/particles/WindParticle.java
- com.shatteredpixel.shatteredpixeldungeon.effects.particles.WindParticle
- com.shatteredpixel.shatteredpixeldungeon.effects.particles.WindParticle$1
- com.shatteredpixel.shatteredpixeldungeon.effects.particles.WindParticle$Wind
+com/shatteredpixel/shatteredpixeldungeon/sprites/UndeadSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.UndeadSprite
 com/shatteredpixel/shatteredpixeldungeon/mechanics/Ballistica.java
  com.shatteredpixel.shatteredpixeldungeon.mechanics.Ballistica
 com/shatteredpixel/shatteredpixeldungeon/ui/BusyIndicator.java
@@ -118,8 +114,8 @@ com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Vulnerable.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Vulnerable
 com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/SewerPipeRoom.java
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.standard.SewerPipeRoom
-com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Statue.java
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Statue
+com/shatteredpixel/shatteredpixeldungeon/sprites/WraithSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.WraithSprite
 com/shatteredpixel/shatteredpixeldungeon/levels/NewCavesBossLevel.java
  com.shatteredpixel.shatteredpixeldungeon.levels.NewCavesBossLevel
  com.shatteredpixel.shatteredpixeldungeon.levels.NewCavesBossLevel$ArenaVisuals
@@ -129,10 +125,8 @@ com/shatteredpixel/shatteredpixeldungeon/levels/NewCavesBossLevel.java
  com.shatteredpixel.shatteredpixeldungeon.levels.NewCavesBossLevel$PylonEnergy$1
 com/shatteredpixel/shatteredpixeldungeon/levels/traps/ShockingTrap.java
  com.shatteredpixel.shatteredpixeldungeon.levels.traps.ShockingTrap
-com/shatteredpixel/shatteredpixeldungeon/scenes/StartScene.java
- com.shatteredpixel.shatteredpixeldungeon.scenes.StartScene
- com.shatteredpixel.shatteredpixeldungeon.scenes.StartScene$1
- com.shatteredpixel.shatteredpixeldungeon.scenes.StartScene$SaveSlotButton
+com/shatteredpixel/shatteredpixeldungeon/sprites/SpawnerSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.SpawnerSprite
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Blooming.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Blooming
 com/shatteredpixel/shatteredpixeldungeon/levels/builders/Builder.java
@@ -154,9 +148,8 @@ com/shatteredpixel/shatteredpixeldungeon/plants/Rotberry.java
 com/shatteredpixel/shatteredpixeldungeon/items/bombs/Noisemaker.java
  com.shatteredpixel.shatteredpixeldungeon.items.bombs.Noisemaker
  com.shatteredpixel.shatteredpixeldungeon.items.bombs.Noisemaker$Trigger
-com/shatteredpixel/shatteredpixeldungeon/actors/mobs/ArmoredBrute.java
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.ArmoredBrute
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.ArmoredBrute$ArmoredRage
+com/shatteredpixel/shatteredpixeldungeon/sprites/SlimeSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.SlimeSprite
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Weakness.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Weakness
 com/shatteredpixel/shatteredpixeldungeon/ui/SimpleButton.java
@@ -199,8 +192,8 @@ com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Flow.java
  com.shatteredpixel.shatteredpixeldungeon.items.armor.glyphs.Flow
 com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/ImpShopRoom.java
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.standard.ImpShopRoom
-com/shatteredpixel/shatteredpixeldungeon/items/potions/PotionOfHealing.java
- com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfHealing
+com/shatteredpixel/shatteredpixeldungeon/sprites/KingSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.KingSprite
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/curses/Sacrificial.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.curses.Sacrificial
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/SnipersMark.java
@@ -217,8 +210,15 @@ com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Foresight.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Foresight
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Projecting.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Projecting
-com/shatteredpixel/shatteredpixeldungeon/sprites/RatSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.RatSprite
+com/shatteredpixel/shatteredpixeldungeon/sprites/FistSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$1
+ com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$Bright
+ com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$Burning
+ com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$Dark
+ com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$Rotting
+ com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$Rusted
+ com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$Soiled
 com/shatteredpixel/shatteredpixeldungeon/levels/traps/DistortionTrap.java
  com.shatteredpixel.shatteredpixeldungeon.levels.traps.DistortionTrap
 com/shatteredpixel/shatteredpixeldungeon/actors/blobs/ParalyticGas.java
@@ -258,17 +258,16 @@ com/shatteredpixel/shatteredpixeldungeon/actors/blobs/Blob.java
  com.shatteredpixel.shatteredpixeldungeon.actors.blobs.Blob
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/tier1/Gloves.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.Gloves
-com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/SkullsRoom.java
- com.shatteredpixel.shatteredpixeldungeon.levels.rooms.standard.SkullsRoom
+com/shatteredpixel/shatteredpixeldungeon/sprites/ImpSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ImpSprite
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Shadows.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Shadows
 com/shatteredpixel/shatteredpixeldungeon/levels/Patch.java
  com.shatteredpixel.shatteredpixeldungeon.levels.Patch
 com/shatteredpixel/shatteredpixeldungeon/ui/CheckBox.java
  com.shatteredpixel.shatteredpixeldungeon.ui.CheckBox
-com/shatteredpixel/shatteredpixeldungeon/plants/BlandfruitBush.java
- com.shatteredpixel.shatteredpixeldungeon.plants.BlandfruitBush
- com.shatteredpixel.shatteredpixeldungeon.plants.BlandfruitBush$Seed
+com/shatteredpixel/shatteredpixeldungeon/sprites/StatueSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.StatueSprite
 com/shatteredpixel/shatteredpixeldungeon/items/armor/ScaleArmor.java
  com.shatteredpixel.shatteredpixeldungeon.items.armor.ScaleArmor
 com/shatteredpixel/shatteredpixeldungeon/actors/blobs/Regrowth.java
@@ -296,8 +295,8 @@ com/shatteredpixel/shatteredpixeldungeon/ui/RedButton.java
 com/shatteredpixel/shatteredpixeldungeon/ui/changelist/ChangesWindow.java
  com.shatteredpixel.shatteredpixeldungeon.ui.changelist.ChangesWindow
  com.shatteredpixel.shatteredpixeldungeon.ui.changelist.ChangesWindow$1
-com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Regeneration.java
- com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Regeneration
+com/shatteredpixel/shatteredpixeldungeon/sprites/SkeletonSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.SkeletonSprite
 com/shatteredpixel/shatteredpixeldungeon/levels/traps/BlazingTrap.java
  com.shatteredpixel.shatteredpixeldungeon.levels.traps.BlazingTrap
 com/shatteredpixel/shatteredpixeldungeon/items/potions/elixirs/ElixirOfToxicEssence.java
@@ -309,9 +308,10 @@ com/shatteredpixel/shatteredpixeldungeon/items/armor/PlateArmor.java
  com.shatteredpixel.shatteredpixeldungeon.items.armor.PlateArmor
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/LifeLink.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.LifeLink
-com/shatteredpixel/shatteredpixeldungeon/messages/Languages.java
- com.shatteredpixel.shatteredpixeldungeon.messages.Languages
- com.shatteredpixel.shatteredpixeldungeon.messages.Languages$Status
+com/shatteredpixel/shatteredpixeldungeon/sprites/MimicSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.MimicSprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.MimicSprite$Crystal
+ com.shatteredpixel.shatteredpixeldungeon.sprites.MimicSprite$Golden
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/Bolas.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.Bolas
 com/shatteredpixel/shatteredpixeldungeon/levels/features/Maze.java
@@ -324,10 +324,8 @@ com/shatteredpixel/shatteredpixeldungeon/items/bombs/ShockBomb.java
  com.shatteredpixel.shatteredpixeldungeon.items.bombs.ShockBomb
 com/shatteredpixel/shatteredpixeldungeon/levels/DeadEndLevel.java
  com.shatteredpixel.shatteredpixeldungeon.levels.DeadEndLevel
-com/shatteredpixel/shatteredpixeldungeon/effects/SpellSprite.java
- com.shatteredpixel.shatteredpixeldungeon.effects.SpellSprite
- com.shatteredpixel.shatteredpixeldungeon.effects.SpellSprite$1
- com.shatteredpixel.shatteredpixeldungeon.effects.SpellSprite$Phase
+com/shatteredpixel/shatteredpixeldungeon/sprites/GhoulSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.GhoulSprite
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/SoulMark.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.SoulMark
 com/shatteredpixel/shatteredpixeldungeon/items/bags/VelvetPouch.java
@@ -365,8 +363,8 @@ com/shatteredpixel/shatteredpixeldungeon/items/keys/IronKey.java
  com.shatteredpixel.shatteredpixeldungeon.items.keys.IronKey
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Barkskin.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Barkskin
-com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/StripedRoom.java
- com.shatteredpixel.shatteredpixeldungeon.levels.rooms.standard.StripedRoom
+com/shatteredpixel/shatteredpixeldungeon/sprites/BatSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.BatSprite
 com/shatteredpixel/shatteredpixeldungeon/windows/WndTitledMessage.java
  com.shatteredpixel.shatteredpixeldungeon.windows.WndTitledMessage
 com/shatteredpixel/shatteredpixeldungeon/levels/rooms/secret/SecretMazeRoom.java
@@ -388,8 +386,8 @@ com/shatteredpixel/shatteredpixeldungeon/levels/rooms/secret/SecretHoardRoom.jav
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.secret.SecretHoardRoom
 com/shatteredpixel/shatteredpixeldungeon/tiles/FogOfWar.java
  com.shatteredpixel.shatteredpixeldungeon.tiles.FogOfWar
-com/shatteredpixel/shatteredpixeldungeon/levels/builders/RegularBuilder.java
- com.shatteredpixel.shatteredpixeldungeon.levels.builders.RegularBuilder
+com/shatteredpixel/shatteredpixeldungeon/sprites/ThiefSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ThiefSprite
 com/shatteredpixel/shatteredpixeldungeon/levels/rooms/secret/SecretLaboratoryRoom.java
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.secret.SecretLaboratoryRoom
 com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Obfuscation.java
@@ -413,15 +411,9 @@ com/shatteredpixel/shatteredpixeldungeon/levels/traps/BurningTrap.java
  com.shatteredpixel.shatteredpixeldungeon.levels.traps.BurningTrap
 com/shatteredpixel/shatteredpixeldungeon/items/armor/curses/Metabolism.java
  com.shatteredpixel.shatteredpixeldungeon.items.armor.curses.Metabolism
-com/shatteredpixel/shatteredpixeldungeon/sprites/FistSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$1
- com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$Bright
- com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$Burning
- com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$Dark
- com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$Rotting
- com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$Rusted
- com.shatteredpixel.shatteredpixeldungeon.sprites.FistSprite$Soiled
+com/shatteredpixel/shatteredpixeldungeon/levels/rooms/special/DemonSpawnerRoom.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.rooms.special.DemonSpawnerRoom
+ com.shatteredpixel.shatteredpixeldungeon.levels.rooms.special.DemonSpawnerRoom$CustomFloor
 com/shatteredpixel/shatteredpixeldungeon/items/artifacts/TalismanOfForesight.java
  com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TalismanOfForesight
  com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TalismanOfForesight$1
@@ -459,8 +451,8 @@ com/shatteredpixel/shatteredpixeldungeon/actors/blobs/WaterOfTransmutation.java
 com/shatteredpixel/shatteredpixeldungeon/items/Honeypot.java
  com.shatteredpixel.shatteredpixeldungeon.items.Honeypot
  com.shatteredpixel.shatteredpixeldungeon.items.Honeypot$ShatteredPot
-com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Insight.java
- com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Insight
+com/shatteredpixel/shatteredpixeldungeon/sprites/GreatCrabSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.GreatCrabSprite
 com/shatteredpixel/shatteredpixeldungeon/items/artifacts/LloydsBeacon.java
  com.shatteredpixel.shatteredpixeldungeon.items.artifacts.LloydsBeacon
  com.shatteredpixel.shatteredpixeldungeon.items.artifacts.LloydsBeacon$1
@@ -472,9 +464,8 @@ com/shatteredpixel/shatteredpixeldungeon/items/bags/Bag.java
  com.shatteredpixel.shatteredpixeldungeon.items.bags.Bag
  com.shatteredpixel.shatteredpixeldungeon.items.bags.Bag$1
  com.shatteredpixel.shatteredpixeldungeon.items.bags.Bag$ItemIterator
-com/shatteredpixel/shatteredpixeldungeon/scenes/RankingsScene.java
- com.shatteredpixel.shatteredpixeldungeon.scenes.RankingsScene
- com.shatteredpixel.shatteredpixeldungeon.scenes.RankingsScene$Record
+com/shatteredpixel/shatteredpixeldungeon/sprites/BruteSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.BruteSprite
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/HeavyBoomerang.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.HeavyBoomerang
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.HeavyBoomerang$CircleBack
@@ -483,8 +474,8 @@ com/shatteredpixel/shatteredpixeldungeon/levels/OldCityBossLevel.java
  com.shatteredpixel.shatteredpixeldungeon.levels.OldCityBossLevel
 com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/CaveRoom.java
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.standard.CaveRoom
-com/shatteredpixel/shatteredpixeldungeon/sprites/BatSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.BatSprite
+com/shatteredpixel/shatteredpixeldungeon/sprites/MirrorSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.MirrorSprite
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/CrystalMimic.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.CrystalMimic
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.CrystalMimic$1
@@ -521,17 +512,14 @@ com/shatteredpixel/shatteredpixeldungeon/items/artifacts/AlchemistsToolkit.java
  com.shatteredpixel.shatteredpixeldungeon.items.artifacts.AlchemistsToolkit$upgradeKit
 com/shatteredpixel/shatteredpixeldungeon/items/quest/Embers.java
  com.shatteredpixel.shatteredpixeldungeon.items.quest.Embers
-com/shatteredpixel/shatteredpixeldungeon/sprites/ShamanSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.ShamanSprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.ShamanSprite$1
- com.shatteredpixel.shatteredpixeldungeon.sprites.ShamanSprite$Blue
- com.shatteredpixel.shatteredpixeldungeon.sprites.ShamanSprite$Purple
- com.shatteredpixel.shatteredpixeldungeon.sprites.ShamanSprite$Red
+com/shatteredpixel/shatteredpixeldungeon/windows/WndResurrect.java
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndResurrect
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndResurrect$1
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndResurrect$2
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Vampiric.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Vampiric
-com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Buff.java
- com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff
- com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff$buffType
+com/shatteredpixel/shatteredpixeldungeon/sprites/ShopkeeperSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ShopkeeperSprite
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Brute.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Brute
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Brute$BruteRage
@@ -568,15 +556,8 @@ com/shatteredpixel/shatteredpixeldungeon/actors/buffs/AdrenalineSurge.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.AdrenalineSurge
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Pylon.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Pylon
-com/shatteredpixel/shatteredpixeldungeon/scenes/SurfaceScene.java
- com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene
- com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$1
- com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$2
- com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$Avatar
- com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$Cloud
- com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$GrassPatch
- com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$Pet
- com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$Sky
+com/shatteredpixel/shatteredpixeldungeon/actors/Actor.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.Actor
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/MissileWeapon.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.MissileWeapon
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Poison.java
@@ -584,9 +565,10 @@ com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Poison.java
 com/shatteredpixel/shatteredpixeldungeon/effects/Identification.java
  com.shatteredpixel.shatteredpixeldungeon.effects.Identification
  com.shatteredpixel.shatteredpixeldungeon.effects.Identification$Speck
-com/shatteredpixel/shatteredpixeldungeon/sprites/SpinnerSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.SpinnerSprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.SpinnerSprite$1
+com/shatteredpixel/shatteredpixeldungeon/Badges.java
+ com.shatteredpixel.shatteredpixeldungeon.Badges
+ com.shatteredpixel.shatteredpixeldungeon.Badges$1
+ com.shatteredpixel.shatteredpixeldungeon.Badges$Badge
 com/shatteredpixel/shatteredpixeldungeon/items/armor/curses/Stench.java
  com.shatteredpixel.shatteredpixeldungeon.items.armor.curses.Stench
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Light.java
@@ -612,18 +594,17 @@ com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Frost.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Frost
 com/shatteredpixel/shatteredpixeldungeon/items/Dewdrop.java
  com.shatteredpixel.shatteredpixeldungeon.items.Dewdrop
-com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/PillarsRoom.java
- com.shatteredpixel.shatteredpixeldungeon.levels.rooms.standard.PillarsRoom
+com/shatteredpixel/shatteredpixeldungeon/sprites/PollutedCrabSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.PollutedCrabSprite
 com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/StandardRoom.java
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.standard.StandardRoom
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.standard.StandardRoom$SizeCategory
-com/shatteredpixel/shatteredpixeldungeon/windows/WndInfoMob.java
- com.shatteredpixel.shatteredpixeldungeon.windows.WndInfoMob
- com.shatteredpixel.shatteredpixeldungeon.windows.WndInfoMob$MobTitle
+com/shatteredpixel/shatteredpixeldungeon/sprites/WandmakerSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.WandmakerSprite
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/EarthImbue.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.EarthImbue
-com/shatteredpixel/shatteredpixeldungeon/sprites/WraithSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.WraithSprite
+com/shatteredpixel/shatteredpixeldungeon/Statistics.java
+ com.shatteredpixel.shatteredpixeldungeon.Statistics
 com/shatteredpixel/shatteredpixeldungeon/items/scrolls/exotic/ScrollOfAffection.java
  com.shatteredpixel.shatteredpixeldungeon.items.scrolls.exotic.ScrollOfAffection
 com/shatteredpixel/shatteredpixeldungeon/scenes/BadgesScene.java
@@ -660,8 +641,9 @@ com/shatteredpixel/shatteredpixeldungeon/windows/WndBlacksmith.java
  com.shatteredpixel.shatteredpixeldungeon.windows.WndBlacksmith$4
  com.shatteredpixel.shatteredpixeldungeon.windows.WndBlacksmith$ItemButton
  com.shatteredpixel.shatteredpixeldungeon.windows.WndBlacksmith$ItemButton$1
-com/shatteredpixel/shatteredpixeldungeon/sprites/LarvaSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.LarvaSprite
+com/shatteredpixel/shatteredpixeldungeon/Dungeon.java
+ com.shatteredpixel.shatteredpixeldungeon.Dungeon
+ com.shatteredpixel.shatteredpixeldungeon.Dungeon$LimitedDrops
 com/shatteredpixel/shatteredpixeldungeon/plants/Earthroot.java
  com.shatteredpixel.shatteredpixeldungeon.plants.Earthroot
  com.shatteredpixel.shatteredpixeldungeon.plants.Earthroot$Armor
@@ -776,27 +758,32 @@ com/shatteredpixel/shatteredpixeldungeon/levels/CavesLevel.java
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Warlock.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Warlock
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Warlock$DarkBolt
-com/shatteredpixel/shatteredpixeldungeon/sprites/WardSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.WardSprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.WardSprite$1
+com/shatteredpixel/shatteredpixeldungeon/windows/WndHero.java
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndHero
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$1
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$2
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$3
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$4
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$BuffsTab
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$BuffsTab$1
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$BuffsTab$BuffSlot
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$KilledTab
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$KilledTab$1
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$KilledTab$mobSlot
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$StatsTab
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$TalentsTab
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Drowsy.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Drowsy
 com/shatteredpixel/shatteredpixeldungeon/levels/traps/FrostTrap.java
  com.shatteredpixel.shatteredpixeldungeon.levels.traps.FrostTrap
 com/shatteredpixel/shatteredpixeldungeon/items/potions/PotionOfStrength.java
  com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfStrength
-com/shatteredpixel/shatteredpixeldungeon/sprites/ElementalSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite$1
- com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite$Chaos
- com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite$Fire
- com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite$Frost
- com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite$NewbornFire
- com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite$Shock
+com/shatteredpixel/shatteredpixeldungeon/sprites/CausticSlimeSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.CausticSlimeSprite
 com/shatteredpixel/shatteredpixeldungeon/items/keys/Key.java
  com.shatteredpixel.shatteredpixeldungeon.items.keys.Key
-com/shatteredpixel/shatteredpixeldungeon/sprites/RatKingSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.RatKingSprite
+com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Corrupting.java
+ com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Corrupting
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/King.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.King
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.King$Undead
@@ -814,8 +801,11 @@ com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/tier1/MagesStaff.jav
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.MagesStaff$1$1
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.MagesStaff$2
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.MagesStaff$StaffParticle
-com/shatteredpixel/shatteredpixeldungeon/sprites/BanditSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.BanditSprite
+com/shatteredpixel/shatteredpixeldungeon/levels/LastLevel.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.LastLevel
+ com.shatteredpixel.shatteredpixeldungeon.levels.LastLevel$CenterPieceVisuals
+ com.shatteredpixel.shatteredpixeldungeon.levels.LastLevel$CenterPieceWalls
+ com.shatteredpixel.shatteredpixeldungeon.levels.LastLevel$CustomFloor
 com/shatteredpixel/shatteredpixeldungeon/effects/TorchHalo.java
  com.shatteredpixel.shatteredpixeldungeon.effects.TorchHalo
 com/shatteredpixel/shatteredpixeldungeon/items/potions/exotic/PotionOfEarthenArmor.java
@@ -826,16 +816,16 @@ com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Senior.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Senior
 com/shatteredpixel/shatteredpixeldungeon/levels/rooms/special/GardenRoom.java
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.special.GardenRoom
-com/shatteredpixel/shatteredpixeldungeon/levels/traps/GrippingTrap.java
- com.shatteredpixel.shatteredpixeldungeon.levels.traps.GrippingTrap
+com/shatteredpixel/shatteredpixeldungeon/sprites/AlbinoSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.AlbinoSprite
 com/shatteredpixel/shatteredpixeldungeon/actors/hero/Belongings.java
  com.shatteredpixel.shatteredpixeldungeon.actors.hero.Belongings
  com.shatteredpixel.shatteredpixeldungeon.actors.hero.Belongings$1
  com.shatteredpixel.shatteredpixeldungeon.actors.hero.Belongings$ItemIterator
 com/shatteredpixel/shatteredpixeldungeon/items/food/FrozenCarpaccio.java
  com.shatteredpixel.shatteredpixeldungeon.items.food.FrozenCarpaccio
-com/shatteredpixel/shatteredpixeldungeon/items/MerchantsBeacon.java
- com.shatteredpixel.shatteredpixeldungeon.items.MerchantsBeacon
+com/shatteredpixel/shatteredpixeldungeon/sprites/AcidicSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.AcidicSprite
 com/shatteredpixel/shatteredpixeldungeon/effects/particles/SparkParticle.java
  com.shatteredpixel.shatteredpixeldungeon.effects.particles.SparkParticle
  com.shatteredpixel.shatteredpixeldungeon.effects.particles.SparkParticle$1
@@ -875,15 +865,17 @@ com/shatteredpixel/shatteredpixeldungeon/items/potions/elixirs/ElixirOfDragonsBl
  com.shatteredpixel.shatteredpixeldungeon.items.potions.elixirs.ElixirOfDragonsBlood$Recipe
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Adrenaline.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Adrenaline
-com/shatteredpixel/shatteredpixeldungeon/windows/WndDocument.java
- com.shatteredpixel.shatteredpixeldungeon.windows.WndDocument
- com.shatteredpixel.shatteredpixeldungeon.windows.WndDocument$1
- com.shatteredpixel.shatteredpixeldungeon.windows.WndDocument$ListItem
- com.shatteredpixel.shatteredpixeldungeon.windows.WndDocument$docPage
+com/shatteredpixel/shatteredpixeldungeon/sprites/WardSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.WardSprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.WardSprite$1
 com/shatteredpixel/shatteredpixeldungeon/tiles/DungeonTileSheet.java
  com.shatteredpixel.shatteredpixeldungeon.tiles.DungeonTileSheet
-com/shatteredpixel/shatteredpixeldungeon/items/journal/AlchemyPage.java
- com.shatteredpixel.shatteredpixeldungeon.items.journal.AlchemyPage
+com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Necromancer.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Necromancer
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Necromancer$1
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Necromancer$Hunting
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Necromancer$NecroSkeleton
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Necromancer$NecroSkeleton$NecroSkeletonSprite
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Shocking.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Shocking
 com/shatteredpixel/shatteredpixeldungeon/items/wands/DamageWand.java
@@ -904,8 +896,8 @@ com/shatteredpixel/shatteredpixeldungeon/windows/WndClass.java
  com.shatteredpixel.shatteredpixeldungeon.windows.WndClass$MasteryTab
  com.shatteredpixel.shatteredpixeldungeon.windows.WndClass$PerksTab
  com.shatteredpixel.shatteredpixeldungeon.windows.WndClass$RankingTab
-com/shatteredpixel/shatteredpixeldungeon/items/journal/DocumentPage.java
- com.shatteredpixel.shatteredpixeldungeon.items.journal.DocumentPage
+com/shatteredpixel/shatteredpixeldungeon/sprites/RotHeartSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.RotHeartSprite
 com/shatteredpixel/shatteredpixeldungeon/effects/Flare.java
  com.shatteredpixel.shatteredpixeldungeon.effects.Flare
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Yog.java
@@ -916,8 +908,8 @@ com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Yog.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Yog$RottingFist
 com/shatteredpixel/shatteredpixeldungeon/actors/blobs/StormCloud.java
  com.shatteredpixel.shatteredpixeldungeon.actors.blobs.StormCloud
-com/shatteredpixel/shatteredpixeldungeon/windows/WndInfoBuff.java
- com.shatteredpixel.shatteredpixeldungeon.windows.WndInfoBuff
+com/shatteredpixel/shatteredpixeldungeon/sprites/RotLasherSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.RotLasherSprite
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/npcs/Sheep.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.npcs.Sheep
 com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfDeepenedSleep.java
@@ -966,14 +958,10 @@ com/shatteredpixel/shatteredpixeldungeon/actors/mobs/npcs/Imp.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.npcs.Imp$1
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.npcs.Imp$2
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.npcs.Imp$Quest
-com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Shaman.java
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Shaman
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Shaman$BlueShaman
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Shaman$EarthenBolt
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Shaman$PurpleShaman
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Shaman$RedShaman
-com/shatteredpixel/shatteredpixeldungeon/sprites/FetidRatSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.FetidRatSprite
+com/shatteredpixel/shatteredpixeldungeon/sprites/SeniorSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.SeniorSprite
+com/shatteredpixel/shatteredpixeldungeon/items/Gold.java
+ com.shatteredpixel.shatteredpixeldungeon.items.Gold
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/RotDart.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.darts.RotDart
 com/shatteredpixel/shatteredpixeldungeon/effects/EmoIcon.java
@@ -1015,9 +1003,9 @@ com/shatteredpixel/shatteredpixeldungeon/effects/FloatingText.java
  com.shatteredpixel.shatteredpixeldungeon.effects.FloatingText
  com.shatteredpixel.shatteredpixeldungeon.effects.FloatingText$1
  com.shatteredpixel.shatteredpixeldungeon.effects.FloatingText$2
-com/shatteredpixel/shatteredpixeldungeon/items/food/MeatPie.java
- com.shatteredpixel.shatteredpixeldungeon.items.food.MeatPie
- com.shatteredpixel.shatteredpixeldungeon.items.food.MeatPie$Recipe
+com/shatteredpixel/shatteredpixeldungeon/sprites/WarlockSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.WarlockSprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.WarlockSprite$1
 com/shatteredpixel/shatteredpixeldungeon/ui/TalentsPane.java
  com.shatteredpixel.shatteredpixeldungeon.ui.TalentsPane
  com.shatteredpixel.shatteredpixeldungeon.ui.TalentsPane$TalentTierPane
@@ -1082,18 +1070,16 @@ com/shatteredpixel/shatteredpixeldungeon/items/scrolls/ScrollOfRage.java
 com/shatteredpixel/shatteredpixeldungeon/actors/hero/HeroClass.java
  com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroClass
  com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroClass$1
-com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/MeleeWeapon.java
- com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.MeleeWeapon
- com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.MeleeWeapon$1
+com/shatteredpixel/shatteredpixeldungeon/sprites/GolemSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.GolemSprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.GolemSprite$1
 com/shatteredpixel/shatteredpixeldungeon/items/potions/AlchemicalCatalyst.java
  com.shatteredpixel.shatteredpixeldungeon.items.potions.AlchemicalCatalyst
  com.shatteredpixel.shatteredpixeldungeon.items.potions.AlchemicalCatalyst$Recipe
 com/shatteredpixel/shatteredpixeldungeon/QuickSlot.java
  com.shatteredpixel.shatteredpixeldungeon.QuickSlot
-com/shatteredpixel/shatteredpixeldungeon/Chrome.java
- com.shatteredpixel.shatteredpixeldungeon.Chrome
- com.shatteredpixel.shatteredpixeldungeon.Chrome$1
- com.shatteredpixel.shatteredpixeldungeon.Chrome$Type
+com/shatteredpixel/shatteredpixeldungeon/sprites/MonkSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.MonkSprite
 com/shatteredpixel/shatteredpixeldungeon/levels/traps/PoisonDartTrap.java
  com.shatteredpixel.shatteredpixeldungeon.levels.traps.PoisonDartTrap
  com.shatteredpixel.shatteredpixeldungeon.levels.traps.PoisonDartTrap$1
@@ -1131,8 +1117,8 @@ com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/tier2/HandAxe.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.HandAxe
 com/shatteredpixel/shatteredpixeldungeon/actors/hero/HeroSubClass.java
  com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroSubClass
-com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/DisplacingDart.java
- com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.darts.DisplacingDart
+com/shatteredpixel/shatteredpixeldungeon/sprites/GhostSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.GhostSprite
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/BlindingDart.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.darts.BlindingDart
 com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/SuspiciousChestRoom.java
@@ -1163,8 +1149,9 @@ com/shatteredpixel/shatteredpixeldungeon/ui/Archs.java
  com.shatteredpixel.shatteredpixeldungeon.ui.Archs
  com.shatteredpixel.shatteredpixeldungeon.ui.Archs$1
  com.shatteredpixel.shatteredpixeldungeon.ui.Archs$2
-com/shatteredpixel/shatteredpixeldungeon/actors/mobs/FetidRat.java
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.FetidRat
+com/shatteredpixel/shatteredpixeldungeon/sprites/SpinnerSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.SpinnerSprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.SpinnerSprite$1
 com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfFuror.java
  com.shatteredpixel.shatteredpixeldungeon.items.rings.RingOfFuror
  com.shatteredpixel.shatteredpixeldungeon.items.rings.RingOfFuror$Furor
@@ -1177,8 +1164,10 @@ com/shatteredpixel/shatteredpixeldungeon/scenes/NewsScene.java
  com.shatteredpixel.shatteredpixeldungeon.scenes.NewsScene$NewsInfo$2
  com.shatteredpixel.shatteredpixeldungeon.scenes.NewsScene$WndArticle
  com.shatteredpixel.shatteredpixeldungeon.scenes.NewsScene$WndArticle$1
-com/shatteredpixel/shatteredpixeldungeon/items/food/ChargrilledMeat.java
- com.shatteredpixel.shatteredpixeldungeon.items.food.ChargrilledMeat
+com/shatteredpixel/shatteredpixeldungeon/sprites/MobSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.MobSprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.MobSprite$1
+ com.shatteredpixel.shatteredpixeldungeon.sprites.MobSprite$2
 com/shatteredpixel/shatteredpixeldungeon/actors/blobs/ToxicGas.java
  com.shatteredpixel.shatteredpixeldungeon.actors.blobs.ToxicGas
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Elemental.java
@@ -1229,8 +1218,8 @@ com/shatteredpixel/shatteredpixeldungeon/items/bags/PotionBandolier.java
  com.shatteredpixel.shatteredpixeldungeon.items.bags.PotionBandolier
 com/shatteredpixel/shatteredpixeldungeon/levels/traps/ToxicTrap.java
  com.shatteredpixel.shatteredpixeldungeon.levels.traps.ToxicTrap
-com/shatteredpixel/shatteredpixeldungeon/journal/Journal.java
- com.shatteredpixel.shatteredpixeldungeon.journal.Journal
+com/shatteredpixel/shatteredpixeldungeon/sprites/EarthGuardianSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.EarthGuardianSprite
 com/shatteredpixel/shatteredpixeldungeon/sprites/MissileSprite.java
  com.shatteredpixel.shatteredpixeldungeon.sprites.MissileSprite
 com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfDisarming.java
@@ -1325,17 +1314,16 @@ com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Kinetic.java
 com/shatteredpixel/shatteredpixeldungeon/plants/Starflower.java
  com.shatteredpixel.shatteredpixeldungeon.plants.Starflower
  com.shatteredpixel.shatteredpixeldungeon.plants.Starflower$Seed
-com/shatteredpixel/shatteredpixeldungeon/items/TomeOfMastery.java
- com.shatteredpixel.shatteredpixeldungeon.items.TomeOfMastery
- com.shatteredpixel.shatteredpixeldungeon.items.TomeOfMastery$1
+com/shatteredpixel/shatteredpixeldungeon/sprites/BlacksmithSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.BlacksmithSprite
 com/shatteredpixel/shatteredpixeldungeon/plants/Firebloom.java
  com.shatteredpixel.shatteredpixeldungeon.plants.Firebloom
  com.shatteredpixel.shatteredpixeldungeon.plants.Firebloom$Seed
 com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfFrost.java
  com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfFrost
  com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfFrost$1
-com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/tier1/TrainingWhip.java
- com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.TrainingWhip
+com/shatteredpixel/shatteredpixeldungeon/sprites/RipperSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.RipperSprite
 com/shatteredpixel/shatteredpixeldungeon/effects/particles/BlastParticle.java
  com.shatteredpixel.shatteredpixeldungeon.effects.particles.BlastParticle
  com.shatteredpixel.shatteredpixeldungeon.effects.particles.BlastParticle$1
@@ -1347,10 +1335,9 @@ com/shatteredpixel/shatteredpixeldungeon/items/scrolls/ScrollOfIdentify.java
  com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfIdentify
 com/shatteredpixel/shatteredpixeldungeon/windows/IconTitle.java
  com.shatteredpixel.shatteredpixeldungeon.windows.IconTitle
-com/shatteredpixel/shatteredpixeldungeon/effects/Splash.java
- com.shatteredpixel.shatteredpixeldungeon.effects.Splash
- com.shatteredpixel.shatteredpixeldungeon.effects.Splash$1
- com.shatteredpixel.shatteredpixeldungeon.effects.Splash$SplashFactory
+com/shatteredpixel/shatteredpixeldungeon/sprites/DM300Sprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.DM300Sprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.DM300Sprite$1
 com/shatteredpixel/shatteredpixeldungeon/ui/changelist/v0_6_X_Changes.java
  com.shatteredpixel.shatteredpixeldungeon.ui.changelist.v0_6_X_Changes
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/DwarfKing.java
@@ -1388,8 +1375,16 @@ com/shatteredpixel/shatteredpixeldungeon/levels/rooms/sewerboss/GooBossRoom.java
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.sewerboss.GooBossRoom$GooNest
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Stamina.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Stamina
-com/shatteredpixel/shatteredpixeldungeon/sprites/ThiefSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.ThiefSprite
+com/shatteredpixel/shatteredpixeldungeon/scenes/InterlevelScene.java
+ com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene
+ com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$1
+ com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$2
+ com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$3
+ com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$4
+ com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$5
+ com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$6
+ com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$Mode
+ com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$Phase
 com/shatteredpixel/shatteredpixeldungeon/ui/Toolbar.java
  com.shatteredpixel.shatteredpixeldungeon.ui.Toolbar
  com.shatteredpixel.shatteredpixeldungeon.ui.Toolbar$1
@@ -1462,14 +1457,13 @@ com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Gnoll.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Gnoll
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/PollutedRat.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.PollutedRat
-com/shatteredpixel/shatteredpixeldungeon/plants/Fadeleaf.java
- com.shatteredpixel.shatteredpixeldungeon.plants.Fadeleaf
- com.shatteredpixel.shatteredpixeldungeon.plants.Fadeleaf$Seed
+com/shatteredpixel/shatteredpixeldungeon/sprites/SuccubusSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.SuccubusSprite
 com/shatteredpixel/shatteredpixeldungeon/levels/painters/RegularPainter.java
  com.shatteredpixel.shatteredpixeldungeon.levels.painters.RegularPainter
  com.shatteredpixel.shatteredpixeldungeon.levels.painters.RegularPainter$1
-com/shatteredpixel/shatteredpixeldungeon/tiles/DungeonTerrainTilemap.java
- com.shatteredpixel.shatteredpixeldungeon.tiles.DungeonTerrainTilemap
+com/shatteredpixel/shatteredpixeldungeon/sprites/SwarmSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.SwarmSprite
 com/shatteredpixel/shatteredpixeldungeon/effects/particles/FlowParticle.java
  com.shatteredpixel.shatteredpixeldungeon.effects.particles.FlowParticle
  com.shatteredpixel.shatteredpixeldungeon.effects.particles.FlowParticle$1
@@ -1480,15 +1474,8 @@ com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Hunger.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Hunger
 com/shatteredpixel/shatteredpixeldungeon/effects/TargetedCell.java
  com.shatteredpixel.shatteredpixeldungeon.effects.TargetedCell
-com/shatteredpixel/shatteredpixeldungeon/levels/NewPrisonBossLevel.java
- com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel
- com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$1
- com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$FadingTraps
- com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$FadingTraps$1
- com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$FadingTraps$1$1
- com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$State
- com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$exitVisual
- com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$exitVisualWalls
+com/shatteredpixel/shatteredpixeldungeon/sprites/NecromancerSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.NecromancerSprite
 com/shatteredpixel/shatteredpixeldungeon/levels/painters/CityPainter.java
  com.shatteredpixel.shatteredpixeldungeon.levels.painters.CityPainter
 com/shatteredpixel/shatteredpixeldungeon/items/scrolls/Scroll.java
@@ -1575,9 +1562,8 @@ com/shatteredpixel/shatteredpixeldungeon/actors/blobs/CorrosiveGas.java
  com.shatteredpixel.shatteredpixeldungeon.actors.blobs.CorrosiveGas
 com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/AntiMagic.java
  com.shatteredpixel.shatteredpixeldungeon.items.armor.glyphs.AntiMagic
-com/shatteredpixel/shatteredpixeldungeon/plants/Blindweed.java
- com.shatteredpixel.shatteredpixeldungeon.plants.Blindweed
- com.shatteredpixel.shatteredpixeldungeon.plants.Blindweed$Seed
+com/shatteredpixel/shatteredpixeldungeon/sprites/GnollSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.GnollSprite
 com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Swiftness.java
  com.shatteredpixel.shatteredpixeldungeon.items.armor.glyphs.Swiftness
 com/shatteredpixel/shatteredpixeldungeon/scenes/AboutScene.java
@@ -1589,23 +1575,21 @@ com/shatteredpixel/shatteredpixeldungeon/effects/particles/SmokeParticle.java
  com.shatteredpixel.shatteredpixeldungeon.effects.particles.SmokeParticle
  com.shatteredpixel.shatteredpixeldungeon.effects.particles.SmokeParticle$1
  com.shatteredpixel.shatteredpixeldungeon.effects.particles.SmokeParticle$2
-com/shatteredpixel/shatteredpixeldungeon/ui/QuickRecipe.java
- com.shatteredpixel.shatteredpixeldungeon.ui.QuickRecipe
- com.shatteredpixel.shatteredpixeldungeon.ui.QuickRecipe$1
- com.shatteredpixel.shatteredpixeldungeon.ui.QuickRecipe$2
- com.shatteredpixel.shatteredpixeldungeon.ui.QuickRecipe$3
- com.shatteredpixel.shatteredpixeldungeon.ui.QuickRecipe$4
- com.shatteredpixel.shatteredpixeldungeon.ui.QuickRecipe$arrow
-com/shatteredpixel/shatteredpixeldungeon/levels/rooms/connection/MazeConnectionRoom.java
- com.shatteredpixel.shatteredpixeldungeon.levels.rooms.connection.MazeConnectionRoom
+com/shatteredpixel/shatteredpixeldungeon/sprites/BeeSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.BeeSprite
+com/shatteredpixel/shatteredpixeldungeon/sprites/DM200Sprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.DM200Sprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.DM200Sprite$1
 com/shatteredpixel/shatteredpixeldungeon/effects/Enchanting.java
  com.shatteredpixel.shatteredpixeldungeon.effects.Enchanting
  com.shatteredpixel.shatteredpixeldungeon.effects.Enchanting$1
  com.shatteredpixel.shatteredpixeldungeon.effects.Enchanting$Phase
-com/shatteredpixel/shatteredpixeldungeon/sprites/SlimeSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.SlimeSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/NecromancerSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.NecromancerSprite
+com/shatteredpixel/shatteredpixeldungeon/Bones.java
+ com.shatteredpixel.shatteredpixeldungeon.Bones
+com/shatteredpixel/shatteredpixeldungeon/items/artifacts/HornOfPlenty.java
+ com.shatteredpixel.shatteredpixeldungeon.items.artifacts.HornOfPlenty
+ com.shatteredpixel.shatteredpixeldungeon.items.artifacts.HornOfPlenty$1
+ com.shatteredpixel.shatteredpixeldungeon.items.artifacts.HornOfPlenty$hornRecharge
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Scorpio.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Scorpio
 com/shatteredpixel/shatteredpixeldungeon/items/armor/HuntressArmor.java
@@ -1615,12 +1599,8 @@ com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Bee.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Bee
 com/shatteredpixel/shatteredpixeldungeon/items/potions/elixirs/Elixir.java
  com.shatteredpixel.shatteredpixeldungeon.items.potions.elixirs.Elixir
-com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Necromancer.java
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Necromancer
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Necromancer$1
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Necromancer$Hunting
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Necromancer$NecroSkeleton
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Necromancer$NecroSkeleton$NecroSkeletonSprite
+com/shatteredpixel/shatteredpixeldungeon/actors/mobs/DemonSpawner.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.DemonSpawner
 com/shatteredpixel/shatteredpixeldungeon/levels/traps/GrimTrap.java
  com.shatteredpixel.shatteredpixeldungeon.levels.traps.GrimTrap
  com.shatteredpixel.shatteredpixeldungeon.levels.traps.GrimTrap$1
@@ -1696,8 +1676,14 @@ com/shatteredpixel/shatteredpixeldungeon/effects/Fireball.java
  com.shatteredpixel.shatteredpixeldungeon.effects.Fireball$Flame
 com/shatteredpixel/shatteredpixeldungeon/actors/blobs/StenchGas.java
  com.shatteredpixel.shatteredpixeldungeon.actors.blobs.StenchGas
-com/shatteredpixel/shatteredpixeldungeon/sprites/SwarmSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.SwarmSprite
+com/shatteredpixel/shatteredpixeldungeon/items/potions/Potion.java
+ com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion
+ com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion$1
+ com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion$2
+ com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion$3
+ com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion$PlaceHolder
+ com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion$SeedToPotion
+ com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion$SeedToPotion$1
 com/shatteredpixel/shatteredpixeldungeon/items/armor/curses/Multiplicity.java
  com.shatteredpixel.shatteredpixeldungeon.items.armor.curses.Multiplicity
 com/shatteredpixel/shatteredpixeldungeon/plants/Dreamfoil.java
@@ -1719,9 +1705,13 @@ com/shatteredpixel/shatteredpixeldungeon/levels/painters/CavesPainter.java
  com.shatteredpixel.shatteredpixeldungeon.levels.painters.CavesPainter
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Elastic.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Elastic
-com/shatteredpixel/shatteredpixeldungeon/effects/Lightning.java
- com.shatteredpixel.shatteredpixeldungeon.effects.Lightning
- com.shatteredpixel.shatteredpixeldungeon.effects.Lightning$Arc
+com/shatteredpixel/shatteredpixeldungeon/levels/features/Chasm.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.features.Chasm
+ com.shatteredpixel.shatteredpixeldungeon.levels.features.Chasm$1
+ com.shatteredpixel.shatteredpixeldungeon.levels.features.Chasm$1$1
+ com.shatteredpixel.shatteredpixeldungeon.levels.features.Chasm$2
+ com.shatteredpixel.shatteredpixeldungeon.levels.features.Chasm$FallBleed
+ com.shatteredpixel.shatteredpixeldungeon.levels.features.Chasm$Falling
 com/shatteredpixel/shatteredpixeldungeon/items/scrolls/exotic/ScrollOfPassage.java
  com.shatteredpixel.shatteredpixeldungeon.items.scrolls.exotic.ScrollOfPassage
 com/shatteredpixel/shatteredpixeldungeon/items/Recipe.java
@@ -1763,16 +1753,14 @@ com/shatteredpixel/shatteredpixeldungeon/utils/DungeonSeed.java
 com/shatteredpixel/shatteredpixeldungeon/items/stones/InventoryStone.java
  com.shatteredpixel.shatteredpixeldungeon.items.stones.InventoryStone
  com.shatteredpixel.shatteredpixeldungeon.items.stones.InventoryStone$1
-com/shatteredpixel/shatteredpixeldungeon/ui/Icons.java
- com.shatteredpixel.shatteredpixeldungeon.ui.Icons
- com.shatteredpixel.shatteredpixeldungeon.ui.Icons$1
+com/shatteredpixel/shatteredpixeldungeon/sprites/LarvaSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.LarvaSprite
 com/shatteredpixel/shatteredpixeldungeon/utils/GLog.java
  com.shatteredpixel.shatteredpixeldungeon.utils.GLog
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/MagicalSight.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.MagicalSight
-com/shatteredpixel/shatteredpixeldungeon/effects/particles/FlameParticle.java
- com.shatteredpixel.shatteredpixeldungeon.effects.particles.FlameParticle
- com.shatteredpixel.shatteredpixeldungeon.effects.particles.FlameParticle$1
+com/shatteredpixel/shatteredpixeldungeon/sprites/RatSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.RatSprite
 com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Viscosity.java
  com.shatteredpixel.shatteredpixeldungeon.items.armor.glyphs.Viscosity
  com.shatteredpixel.shatteredpixeldungeon.items.armor.glyphs.Viscosity$DeferedDamage
@@ -1801,18 +1789,22 @@ com/shatteredpixel/shatteredpixeldungeon/items/armor/curses/Corrosion.java
  com.shatteredpixel.shatteredpixeldungeon.items.armor.curses.Corrosion
 com/shatteredpixel/shatteredpixeldungeon/items/Torch.java
  com.shatteredpixel.shatteredpixeldungeon.items.Torch
-com/shatteredpixel/shatteredpixeldungeon/levels/PollutedSewerLevel.java
- com.shatteredpixel.shatteredpixeldungeon.levels.PollutedSewerLevel
- com.shatteredpixel.shatteredpixeldungeon.levels.PollutedSewerLevel$Sink
- com.shatteredpixel.shatteredpixeldungeon.levels.PollutedSewerLevel$Sink$1
- com.shatteredpixel.shatteredpixeldungeon.levels.PollutedSewerLevel$WaterParticle
 com/shatteredpixel/shatteredpixeldungeon/sprites/EyeSprite.java
  com.shatteredpixel.shatteredpixeldungeon.sprites.EyeSprite
+com/shatteredpixel/shatteredpixeldungeon/sprites/TenguSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.TenguSprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.TenguSprite$1
+ com.shatteredpixel.shatteredpixeldungeon.sprites.TenguSprite$TenguShuriken
 com/shatteredpixel/shatteredpixeldungeon/actors/blobs/Foliage.java
  com.shatteredpixel.shatteredpixeldungeon.actors.blobs.Foliage
-com/shatteredpixel/shatteredpixeldungeon/sprites/WarlockSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.WarlockSprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.WarlockSprite$1
+com/shatteredpixel/shatteredpixeldungeon/actors/hero/Hero.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero
+ com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero$1
+ com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero$2
+ com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero$3
+ com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero$4
+ com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero$5
+ com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero$Doom
 com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfAugmentation.java
  com.shatteredpixel.shatteredpixeldungeon.items.stones.StoneOfAugmentation
  com.shatteredpixel.shatteredpixeldungeon.items.stones.StoneOfAugmentation$WndAugment
@@ -1837,28 +1829,8 @@ com/shatteredpixel/shatteredpixeldungeon/items/bombs/RegrowthBomb.java
  com.shatteredpixel.shatteredpixeldungeon.items.bombs.RegrowthBomb
 com/shatteredpixel/shatteredpixeldungeon/effects/Ripple.java
  com.shatteredpixel.shatteredpixeldungeon.effects.Ripple
-com/shatteredpixel/shatteredpixeldungeon/effects/MagicMissile.java
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$EarthParticle
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$EarthParticle$1
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$EarthParticle$2
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$EarthParticle$3
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$ForceParticle
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$ForceParticle$1
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$MagicParticle
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$MagicParticle$1
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$MagicParticle$2
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$ShamanParticle
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$ShamanParticle$1
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$ShamanParticle$2
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$ShamanParticle$3
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$SlowParticle
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$SlowParticle$1
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$WardParticle
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$WardParticle$1
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$WardParticle$2
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$WhiteParticle
- com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$WhiteParticle$1
+com/shatteredpixel/shatteredpixeldungeon/sprites/PollutedRatSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.PollutedRatSprite
 com/shatteredpixel/shatteredpixeldungeon/windows/WndJournal.java
  com.shatteredpixel.shatteredpixeldungeon.windows.WndJournal
  com.shatteredpixel.shatteredpixeldungeon.windows.WndJournal$1
@@ -1918,8 +1890,10 @@ com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/EmptyRoom.java
 com/shatteredpixel/shatteredpixeldungeon/levels/rooms/special/WeakFloorRoom.java
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.special.WeakFloorRoom
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.special.WeakFloorRoom$HiddenWell
-com/shatteredpixel/shatteredpixeldungeon/sprites/SpawnerSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.SpawnerSprite
+com/shatteredpixel/shatteredpixeldungeon/levels/traps/GuardianTrap.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.traps.GuardianTrap
+ com.shatteredpixel.shatteredpixeldungeon.levels.traps.GuardianTrap$Guardian
+ com.shatteredpixel.shatteredpixeldungeon.levels.traps.GuardianTrap$GuardianSprite
 com/shatteredpixel/shatteredpixeldungeon/windows/WndWandmaker.java
  com.shatteredpixel.shatteredpixeldungeon.windows.WndWandmaker
  com.shatteredpixel.shatteredpixeldungeon.windows.WndWandmaker$1
@@ -1927,13 +1901,14 @@ com/shatteredpixel/shatteredpixeldungeon/windows/WndWandmaker.java
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/TippedDart.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.darts.TippedDart
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.darts.TippedDart$1
-com/shatteredpixel/shatteredpixeldungeon/actors/buffs/MagicalSleep.java
- com.shatteredpixel.shatteredpixeldungeon.actors.buffs.MagicalSleep
-com/shatteredpixel/shatteredpixeldungeon/items/potions/brews/Brew.java
- com.shatteredpixel.shatteredpixeldungeon.items.potions.brews.Brew
-com/shatteredpixel/shatteredpixeldungeon/effects/Pushing.java
- com.shatteredpixel.shatteredpixeldungeon.effects.Pushing
- com.shatteredpixel.shatteredpixeldungeon.effects.Pushing$Effect
+com/shatteredpixel/shatteredpixeldungeon/sprites/ScorpioSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ScorpioSprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ScorpioSprite$1
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ScorpioSprite$ScorpioShot
+com/shatteredpixel/shatteredpixeldungeon/sprites/PrismaticSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.PrismaticSprite
+com/shatteredpixel/shatteredpixeldungeon/sprites/GuardSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.GuardSprite
 com/shatteredpixel/shatteredpixeldungeon/items/wands/Wand.java
  com.shatteredpixel.shatteredpixeldungeon.items.wands.Wand
  com.shatteredpixel.shatteredpixeldungeon.items.wands.Wand$1
@@ -1974,10 +1949,8 @@ com/shatteredpixel/shatteredpixeldungeon/effects/particles/BloodParticle.java
  com.shatteredpixel.shatteredpixeldungeon.effects.particles.BloodParticle$2
 com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Entanglement.java
  com.shatteredpixel.shatteredpixeldungeon.items.armor.glyphs.Entanglement
-com/shatteredpixel/shatteredpixeldungeon/items/spells/BeaconOfReturning.java
- com.shatteredpixel.shatteredpixeldungeon.items.spells.BeaconOfReturning
- com.shatteredpixel.shatteredpixeldungeon.items.spells.BeaconOfReturning$1
- com.shatteredpixel.shatteredpixeldungeon.items.spells.BeaconOfReturning$Recipe
+com/shatteredpixel/shatteredpixeldungeon/sprites/DM100Sprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.DM100Sprite
 com/shatteredpixel/shatteredpixeldungeon/ui/RenderedTextBlock.java
  com.shatteredpixel.shatteredpixeldungeon.ui.RenderedTextBlock
 com/shatteredpixel/shatteredpixeldungeon/items/bombs/Bomb.java
@@ -2003,8 +1976,14 @@ com/shatteredpixel/shatteredpixeldungeon/SPDAction.java
  com.shatteredpixel.shatteredpixeldungeon.SPDAction
 com/shatteredpixel/shatteredpixeldungeon/items/armor/ClothArmor.java
  com.shatteredpixel.shatteredpixeldungeon.items.armor.ClothArmor
-com/shatteredpixel/shatteredpixeldungeon/sprites/SuccubusSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.SuccubusSprite
+com/shatteredpixel/shatteredpixeldungeon/scenes/GameScene.java
+ com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene
+ com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene$1
+ com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene$2
+ com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene$3
+ com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene$4
+ com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene$5
+ com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene$6
 com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfAggression.java
  com.shatteredpixel.shatteredpixeldungeon.items.stones.StoneOfAggression
  com.shatteredpixel.shatteredpixeldungeon.items.stones.StoneOfAggression$Aggression
@@ -2055,8 +2034,9 @@ com/shatteredpixel/shatteredpixeldungeon/items/artifacts/Artifact.java
 com/shatteredpixel/shatteredpixeldungeon/ui/Window.java
  com.shatteredpixel.shatteredpixeldungeon.ui.Window
  com.shatteredpixel.shatteredpixeldungeon.ui.Window$1
-com/shatteredpixel/shatteredpixeldungeon/sprites/ShopkeeperSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.ShopkeeperSprite
+com/shatteredpixel/shatteredpixeldungeon/items/scrolls/ScrollOfMirrorImage.java
+ com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfMirrorImage
+ com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfMirrorImage$DelayedImageSpawner
 com/shatteredpixel/shatteredpixeldungeon/items/scrolls/exotic/ScrollOfPolymorph.java
  com.shatteredpixel.shatteredpixeldungeon.items.scrolls.exotic.ScrollOfPolymorph
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/ForceCube.java
@@ -2128,17 +2108,16 @@ com/shatteredpixel/shatteredpixeldungeon/scenes/PixelScene.java
  com.shatteredpixel.shatteredpixeldungeon.scenes.PixelScene$PixelCamera
 com/shatteredpixel/shatteredpixeldungeon/items/DewVial.java
  com.shatteredpixel.shatteredpixeldungeon.items.DewVial
-com/shatteredpixel/shatteredpixeldungeon/actors/mobs/OldTengu.java
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.OldTengu
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.OldTengu$1
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.OldTengu$Hunting
+com/shatteredpixel/shatteredpixeldungeon/sprites/SheepSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.SheepSprite
 com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfForce.java
  com.shatteredpixel.shatteredpixeldungeon.items.rings.RingOfForce
  com.shatteredpixel.shatteredpixeldungeon.items.rings.RingOfForce$Force
 com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/GrassyGraveRoom.java
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.standard.GrassyGraveRoom
-com/shatteredpixel/shatteredpixeldungeon/actors/blobs/EternalFire.java
- com.shatteredpixel.shatteredpixeldungeon.actors.blobs.EternalFire
+com/shatteredpixel/shatteredpixeldungeon/sprites/DM201Sprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.DM201Sprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.DM201Sprite$1
 com/shatteredpixel/shatteredpixeldungeon/items/spells/PhaseShift.java
  com.shatteredpixel.shatteredpixeldungeon.items.spells.PhaseShift
  com.shatteredpixel.shatteredpixeldungeon.items.spells.PhaseShift$Recipe
@@ -2151,10 +2130,8 @@ com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Golem.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Golem$1
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Golem$Hunting
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Golem$Wandering
-com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/Dart.java
- com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.darts.Dart
- com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.darts.Dart$1
- com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.darts.Dart$1$1
+com/shatteredpixel/shatteredpixeldungeon/sprites/CrabSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.CrabSprite
 com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfWealth.java
  com.shatteredpixel.shatteredpixeldungeon.items.rings.RingOfWealth
  com.shatteredpixel.shatteredpixeldungeon.items.rings.RingOfWealth$Wealth
@@ -2166,16 +2143,14 @@ com/shatteredpixel/shatteredpixeldungeon/levels/OldCavesBossLevel.java
 com/shatteredpixel/shatteredpixeldungeon/levels/rooms/special/MassGraveRoom.java
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.special.MassGraveRoom
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.special.MassGraveRoom$Bones
-com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfCorrosion.java
- com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfCorrosion
-com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Ghoul.java
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Ghoul
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Ghoul$1
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Ghoul$GhoulLifeLink
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Ghoul$Sleeping
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Ghoul$Wandering
-com/shatteredpixel/shatteredpixeldungeon/sprites/EarthGuardianSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.EarthGuardianSprite
+com/shatteredpixel/shatteredpixeldungeon/sprites/BanditSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.BanditSprite
+com/shatteredpixel/shatteredpixeldungeon/sprites/RatKingSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.RatKingSprite
+com/shatteredpixel/shatteredpixeldungeon/items/Amulet.java
+ com.shatteredpixel.shatteredpixeldungeon.items.Amulet
+ com.shatteredpixel.shatteredpixeldungeon.items.Amulet$1
+ com.shatteredpixel.shatteredpixeldungeon.items.Amulet$2
 com/shatteredpixel/shatteredpixeldungeon/items/spells/InventorySpell.java
  com.shatteredpixel.shatteredpixeldungeon.items.spells.InventorySpell
  com.shatteredpixel.shatteredpixeldungeon.items.spells.InventorySpell$1
@@ -2212,10 +2187,10 @@ com/shatteredpixel/shatteredpixeldungeon/Assets.java
  com.shatteredpixel.shatteredpixeldungeon.Assets$Sprites
 com/shatteredpixel/shatteredpixeldungeon/ui/ExitButton.java
  com.shatteredpixel.shatteredpixeldungeon.ui.ExitButton
-com/shatteredpixel/shatteredpixeldungeon/sprites/MobSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.MobSprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.MobSprite$1
- com.shatteredpixel.shatteredpixeldungeon.sprites.MobSprite$2
+com/shatteredpixel/shatteredpixeldungeon/levels/Level.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.Level
+ com.shatteredpixel.shatteredpixeldungeon.levels.Level$Feeling
+ com.shatteredpixel.shatteredpixeldungeon.levels.Level$Respawner
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Chill.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Chill
 com/shatteredpixel/shatteredpixeldungeon/items/EquipableItem.java
@@ -2236,8 +2211,18 @@ com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/StatuesRoom.java
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.standard.StatuesRoom
 com/shatteredpixel/shatteredpixeldungeon/ui/changelist/v0_1_X_Changes.java
  com.shatteredpixel.shatteredpixeldungeon.ui.changelist.v0_1_X_Changes
-com/shatteredpixel/shatteredpixeldungeon/sprites/ImpSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.ImpSprite
+com/shatteredpixel/shatteredpixeldungeon/windows/WndRanking.java
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$1
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$BadgesTab
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$ItemButton
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$ItemsTab
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$QuickSlotButton
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$RankingTab
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$StatsTab
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$StatsTab$1
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$StatsTab$1$1
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$StatsTab$2
 com/shatteredpixel/shatteredpixeldungeon/ui/TalentButton.java
  com.shatteredpixel.shatteredpixeldungeon.ui.TalentButton
  com.shatteredpixel.shatteredpixeldungeon.ui.TalentButton$1
@@ -2287,8 +2272,8 @@ com/shatteredpixel/shatteredpixeldungeon/items/weapon/SpiritBow.java
 com/shatteredpixel/shatteredpixeldungeon/ui/GameLog.java
  com.shatteredpixel.shatteredpixeldungeon.ui.GameLog
  com.shatteredpixel.shatteredpixeldungeon.ui.GameLog$Entry
-com/shatteredpixel/shatteredpixeldungeon/sprites/PollutedRatSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.PollutedRatSprite
+com/shatteredpixel/shatteredpixeldungeon/items/food/Food.java
+ com.shatteredpixel.shatteredpixeldungeon.items.food.Food
 com/shatteredpixel/shatteredpixeldungeon/items/armor/WarriorArmor.java
  com.shatteredpixel.shatteredpixeldungeon.items.armor.WarriorArmor
  com.shatteredpixel.shatteredpixeldungeon.items.armor.WarriorArmor$1
@@ -2313,17 +2298,23 @@ com/shatteredpixel/shatteredpixeldungeon/ui/CharHealthIndicator.java
  com.shatteredpixel.shatteredpixeldungeon.ui.CharHealthIndicator
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/tier1/WornShortsword.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.WornShortsword
-com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Potential.java
- com.shatteredpixel.shatteredpixeldungeon.items.armor.glyphs.Potential
+com/shatteredpixel/shatteredpixeldungeon/scenes/SurfaceScene.java
+ com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene
+ com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$1
+ com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$2
+ com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$Avatar
+ com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$Cloud
+ com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$GrassPatch
+ com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$Pet
+ com.shatteredpixel.shatteredpixeldungeon.scenes.SurfaceScene$Sky
 com/shatteredpixel/shatteredpixeldungeon/items/potions/brews/InfernalBrew.java
  com.shatteredpixel.shatteredpixeldungeon.items.potions.brews.InfernalBrew
  com.shatteredpixel.shatteredpixeldungeon.items.potions.brews.InfernalBrew$Recipe
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Bandit.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Bandit
-com/shatteredpixel/shatteredpixeldungeon/sprites/TenguSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.TenguSprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.TenguSprite$1
- com.shatteredpixel.shatteredpixeldungeon.sprites.TenguSprite$TenguShuriken
+com/shatteredpixel/shatteredpixeldungeon/items/spells/MagicalInfusion.java
+ com.shatteredpixel.shatteredpixeldungeon.items.spells.MagicalInfusion
+ com.shatteredpixel.shatteredpixeldungeon.items.spells.MagicalInfusion$Recipe
 com/shatteredpixel/shatteredpixeldungeon/items/bombs/HolyBomb.java
  com.shatteredpixel.shatteredpixeldungeon.items.bombs.HolyBomb
 com/shatteredpixel/shatteredpixeldungeon/items/scrolls/ScrollOfLullaby.java
@@ -2383,15 +2374,16 @@ com/shatteredpixel/shatteredpixeldungeon/levels/NewHallsBossLevel.java
  com.shatteredpixel.shatteredpixeldungeon.levels.NewHallsBossLevel$CenterPieceWalls
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/ArcaneArmor.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.ArcaneArmor
-com/shatteredpixel/shatteredpixeldungeon/items/armor/RogueArmor.java
- com.shatteredpixel.shatteredpixeldungeon.items.armor.RogueArmor
- com.shatteredpixel.shatteredpixeldungeon.items.armor.RogueArmor$1
+com/shatteredpixel/shatteredpixeldungeon/sprites/GooSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.GooSprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.GooSprite$GooParticle
+ com.shatteredpixel.shatteredpixeldungeon.sprites.GooSprite$GooParticle$1
 com/shatteredpixel/shatteredpixeldungeon/items/food/Blandfruit.java
  com.shatteredpixel.shatteredpixeldungeon.items.food.Blandfruit
  com.shatteredpixel.shatteredpixeldungeon.items.food.Blandfruit$Chunks
  com.shatteredpixel.shatteredpixeldungeon.items.food.Blandfruit$CookFruit
-com/shatteredpixel/shatteredpixeldungeon/items/keys/GoldenKey.java
- com.shatteredpixel.shatteredpixeldungeon.items.keys.GoldenKey
+com/shatteredpixel/shatteredpixeldungeon/sprites/SnakeSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.SnakeSprite
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Snake.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Snake
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/tier4/Flail.java
@@ -2439,22 +2431,18 @@ com/shatteredpixel/shatteredpixeldungeon/effects/BannerSprites.java
  com.shatteredpixel.shatteredpixeldungeon.effects.BannerSprites
  com.shatteredpixel.shatteredpixeldungeon.effects.BannerSprites$1
  com.shatteredpixel.shatteredpixeldungeon.effects.BannerSprites$Type
-com/shatteredpixel/shatteredpixeldungeon/items/artifacts/TimekeepersHourglass.java
- com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TimekeepersHourglass
- com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TimekeepersHourglass$1
- com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TimekeepersHourglass$hourglassRecharge
- com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TimekeepersHourglass$sandBag
- com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TimekeepersHourglass$timeFreeze
- com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TimekeepersHourglass$timeStasis
+com/shatteredpixel/shatteredpixeldungeon/sprites/GnollTricksterSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.GnollTricksterSprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.GnollTricksterSprite$1
 com/shatteredpixel/shatteredpixeldungeon/levels/SewerLevel.java
  com.shatteredpixel.shatteredpixeldungeon.levels.SewerLevel
  com.shatteredpixel.shatteredpixeldungeon.levels.SewerLevel$Sink
  com.shatteredpixel.shatteredpixeldungeon.levels.SewerLevel$Sink$1
  com.shatteredpixel.shatteredpixeldungeon.levels.SewerLevel$WaterParticle
-com/shatteredpixel/shatteredpixeldungeon/actors/blobs/Alchemy.java
- com.shatteredpixel.shatteredpixeldungeon.actors.blobs.Alchemy
-com/shatteredpixel/shatteredpixeldungeon/levels/traps/SummoningTrap.java
- com.shatteredpixel.shatteredpixeldungeon.levels.traps.SummoningTrap
+com/shatteredpixel/shatteredpixeldungeon/sprites/PylonSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.PylonSprite
+com/shatteredpixel/shatteredpixeldungeon/sprites/YogSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.YogSprite
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/tier4/RunicBlade.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.RunicBlade
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Crab.java
@@ -2464,10 +2452,14 @@ com/shatteredpixel/shatteredpixeldungeon/items/potions/PotionOfFrost.java
 com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfElements.java
  com.shatteredpixel.shatteredpixeldungeon.items.rings.RingOfElements
  com.shatteredpixel.shatteredpixeldungeon.items.rings.RingOfElements$Resistance
-com/shatteredpixel/shatteredpixeldungeon/sprites/StatueSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.StatueSprite
-com/shatteredpixel/shatteredpixeldungeon/items/potions/exotic/PotionOfAdrenalineSurge.java
- com.shatteredpixel.shatteredpixeldungeon.items.potions.exotic.PotionOfAdrenalineSurge
+com/shatteredpixel/shatteredpixeldungeon/items/scrolls/ScrollOfUpgrade.java
+ com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfUpgrade
+com/shatteredpixel/shatteredpixeldungeon/sprites/ShamanSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ShamanSprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ShamanSprite$1
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ShamanSprite$Blue
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ShamanSprite$Purple
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ShamanSprite$Red
 com/shatteredpixel/shatteredpixeldungeon/levels/HallsLevel.java
  com.shatteredpixel.shatteredpixeldungeon.levels.HallsLevel
  com.shatteredpixel.shatteredpixeldungeon.levels.HallsLevel$FireParticle
@@ -2486,8 +2478,10 @@ com/shatteredpixel/shatteredpixeldungeon/levels/rooms/sewerboss/SewerBossExitRoo
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.sewerboss.SewerBossExitRoom
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.sewerboss.SewerBossExitRoom$SewerExit
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.sewerboss.SewerBossExitRoom$SewerExitOverhang
-com/shatteredpixel/shatteredpixeldungeon/sprites/NewbornElementalSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.NewbornElementalSprite
+com/shatteredpixel/shatteredpixeldungeon/Rankings.java
+ com.shatteredpixel.shatteredpixeldungeon.Rankings
+ com.shatteredpixel.shatteredpixeldungeon.Rankings$1
+ com.shatteredpixel.shatteredpixeldungeon.Rankings$Record
 com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/tier5/Glaive.java
  com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.Glaive
 com/shatteredpixel/shatteredpixeldungeon/windows/WndInfoPlant.java
@@ -2521,198 +2515,86 @@ com/shatteredpixel/shatteredpixeldungeon/levels/rooms/secret/RatKingRoom.java
  com.shatteredpixel.shatteredpixeldungeon.levels.rooms.secret.RatKingRoom
 com/shatteredpixel/shatteredpixeldungeon/tiles/GridTileMap.java
  com.shatteredpixel.shatteredpixeldungeon.tiles.GridTileMap
-com/shatteredpixel/shatteredpixeldungeon/sprites/PiranhaSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.PiranhaSprite
+com/shatteredpixel/shatteredpixeldungeon/GamesInProgress.java
+ com.shatteredpixel.shatteredpixeldungeon.GamesInProgress
+ com.shatteredpixel.shatteredpixeldungeon.GamesInProgress$1
+ com.shatteredpixel.shatteredpixeldungeon.GamesInProgress$Info
 com/shatteredpixel/shatteredpixeldungeon/items/potions/PotionOfInvisibility.java
  com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfInvisibility
 com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Terror.java
  com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Terror
 com/shatteredpixel/shatteredpixeldungeon/windows/WndMessage.java
  com.shatteredpixel.shatteredpixeldungeon.windows.WndMessage
-com/shatteredpixel/shatteredpixeldungeon/sprites/LotusSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.LotusSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/RotHeartSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.RotHeartSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/GooSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.GooSprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.GooSprite$GooParticle
- com.shatteredpixel.shatteredpixeldungeon.sprites.GooSprite$GooParticle$1
-com/shatteredpixel/shatteredpixeldungeon/sprites/GolemSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.GolemSprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.GolemSprite$1
-com/shatteredpixel/shatteredpixeldungeon/sprites/RotLasherSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.RotLasherSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/SnakeSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.SnakeSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/MonkSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.MonkSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/PollutedCrabSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.PollutedCrabSprite
+com/shatteredpixel/shatteredpixeldungeon/actors/mobs/ArmoredBrute.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.ArmoredBrute
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.ArmoredBrute$ArmoredRage
+com/shatteredpixel/shatteredpixeldungeon/plants/BlandfruitBush.java
+ com.shatteredpixel.shatteredpixeldungeon.plants.BlandfruitBush
+ com.shatteredpixel.shatteredpixeldungeon.plants.BlandfruitBush$Seed
+com/shatteredpixel/shatteredpixeldungeon/effects/MagicMissile.java
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$EarthParticle
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$EarthParticle$1
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$EarthParticle$2
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$EarthParticle$3
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$ForceParticle
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$ForceParticle$1
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$MagicParticle
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$MagicParticle$1
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$MagicParticle$2
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$ShamanParticle
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$ShamanParticle$1
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$ShamanParticle$2
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$ShamanParticle$3
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$SlowParticle
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$SlowParticle$1
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$WardParticle
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$WardParticle$1
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$WardParticle$2
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$WhiteParticle
+ com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile$WhiteParticle$1
+com/shatteredpixel/shatteredpixeldungeon/levels/NewPrisonBossLevel.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel
+ com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$1
+ com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$FadingTraps
+ com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$FadingTraps$1
+ com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$FadingTraps$1$1
+ com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$State
+ com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$exitVisual
+ com.shatteredpixel.shatteredpixeldungeon.levels.NewPrisonBossLevel$exitVisualWalls
+com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/PillarsRoom.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.rooms.standard.PillarsRoom
+com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/SkullsRoom.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.rooms.standard.SkullsRoom
+com/shatteredpixel/shatteredpixeldungeon/journal/Journal.java
+ com.shatteredpixel.shatteredpixeldungeon.journal.Journal
+com/shatteredpixel/shatteredpixeldungeon/items/journal/AlchemyPage.java
+ com.shatteredpixel.shatteredpixeldungeon.items.journal.AlchemyPage
+com/shatteredpixel/shatteredpixeldungeon/levels/builders/RegularBuilder.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.builders.RegularBuilder
+com/shatteredpixel/shatteredpixeldungeon/tiles/DungeonTerrainTilemap.java
+ com.shatteredpixel.shatteredpixeldungeon.tiles.DungeonTerrainTilemap
+com/shatteredpixel/shatteredpixeldungeon/scenes/StartScene.java
+ com.shatteredpixel.shatteredpixeldungeon.scenes.StartScene
+ com.shatteredpixel.shatteredpixeldungeon.scenes.StartScene$1
+ com.shatteredpixel.shatteredpixeldungeon.scenes.StartScene$SaveSlotButton
+com/shatteredpixel/shatteredpixeldungeon/plants/Fadeleaf.java
+ com.shatteredpixel.shatteredpixeldungeon.plants.Fadeleaf
+ com.shatteredpixel.shatteredpixeldungeon.plants.Fadeleaf$Seed
+com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Statue.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Statue
 com/shatteredpixel/shatteredpixeldungeon/sprites/ShieldedSprite.java
  com.shatteredpixel.shatteredpixeldungeon.sprites.ShieldedSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/GreatCrabSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.GreatCrabSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/WandmakerSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.WandmakerSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/BruteSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.BruteSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/SkeletonSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.SkeletonSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/CausticSlimeSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.CausticSlimeSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/MirrorSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.MirrorSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/GhostSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.GhostSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/BlacksmithSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.BlacksmithSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/MimicSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.MimicSprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.MimicSprite$Crystal
- com.shatteredpixel.shatteredpixeldungeon.sprites.MimicSprite$Golden
-com/shatteredpixel/shatteredpixeldungeon/sprites/RipperSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.RipperSprite
-com/shatteredpixel/shatteredpixeldungeon/levels/traps/GuardianTrap.java
- com.shatteredpixel.shatteredpixeldungeon.levels.traps.GuardianTrap
- com.shatteredpixel.shatteredpixeldungeon.levels.traps.GuardianTrap$Guardian
- com.shatteredpixel.shatteredpixeldungeon.levels.traps.GuardianTrap$GuardianSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/ScorpioSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.ScorpioSprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.ScorpioSprite$1
- com.shatteredpixel.shatteredpixeldungeon.sprites.ScorpioSprite$ScorpioShot
-com/shatteredpixel/shatteredpixeldungeon/sprites/GnollSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.GnollSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/PrismaticSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.PrismaticSprite
-com/shatteredpixel/shatteredpixeldungeon/levels/features/Chasm.java
- com.shatteredpixel.shatteredpixeldungeon.levels.features.Chasm
- com.shatteredpixel.shatteredpixeldungeon.levels.features.Chasm$1
- com.shatteredpixel.shatteredpixeldungeon.levels.features.Chasm$1$1
- com.shatteredpixel.shatteredpixeldungeon.levels.features.Chasm$2
- com.shatteredpixel.shatteredpixeldungeon.levels.features.Chasm$FallBleed
- com.shatteredpixel.shatteredpixeldungeon.levels.features.Chasm$Falling
-com/shatteredpixel/shatteredpixeldungeon/sprites/GuardSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.GuardSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/SeniorSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.SeniorSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/SheepSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.SheepSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/DM201Sprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.DM201Sprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.DM201Sprite$1
-com/shatteredpixel/shatteredpixeldungeon/sprites/GnollTricksterSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.GnollTricksterSprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.GnollTricksterSprite$1
-com/shatteredpixel/shatteredpixeldungeon/sprites/UndeadSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.UndeadSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/GhoulSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.GhoulSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/KingSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.KingSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/PylonSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.PylonSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/YogSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.YogSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/DM300Sprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.DM300Sprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.DM300Sprite$1
-com/shatteredpixel/shatteredpixeldungeon/sprites/BeeSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.BeeSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/DM200Sprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.DM200Sprite
- com.shatteredpixel.shatteredpixeldungeon.sprites.DM200Sprite$1
-com/shatteredpixel/shatteredpixeldungeon/sprites/AlbinoSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.AlbinoSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/AcidicSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.AcidicSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/CrabSprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.CrabSprite
-com/shatteredpixel/shatteredpixeldungeon/sprites/DM100Sprite.java
- com.shatteredpixel.shatteredpixeldungeon.sprites.DM100Sprite
-com/shatteredpixel/shatteredpixeldungeon/Bones.java
- com.shatteredpixel.shatteredpixeldungeon.Bones
-com/shatteredpixel/shatteredpixeldungeon/items/scrolls/ScrollOfUpgrade.java
- com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfUpgrade
-com/shatteredpixel/shatteredpixeldungeon/items/food/Food.java
- com.shatteredpixel.shatteredpixeldungeon.items.food.Food
-com/shatteredpixel/shatteredpixeldungeon/items/artifacts/HornOfPlenty.java
- com.shatteredpixel.shatteredpixeldungeon.items.artifacts.HornOfPlenty
- com.shatteredpixel.shatteredpixeldungeon.items.artifacts.HornOfPlenty$1
- com.shatteredpixel.shatteredpixeldungeon.items.artifacts.HornOfPlenty$hornRecharge
-com/shatteredpixel/shatteredpixeldungeon/Rankings.java
- com.shatteredpixel.shatteredpixeldungeon.Rankings
- com.shatteredpixel.shatteredpixeldungeon.Rankings$1
- com.shatteredpixel.shatteredpixeldungeon.Rankings$Record
-com/shatteredpixel/shatteredpixeldungeon/windows/WndRanking.java
- com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking
- com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$1
- com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$BadgesTab
- com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$ItemButton
- com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$ItemsTab
- com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$QuickSlotButton
- com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$RankingTab
- com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$StatsTab
- com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$StatsTab$1
- com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$StatsTab$1$1
- com.shatteredpixel.shatteredpixeldungeon.windows.WndRanking$StatsTab$2
-com/shatteredpixel/shatteredpixeldungeon/items/Amulet.java
- com.shatteredpixel.shatteredpixeldungeon.items.Amulet
- com.shatteredpixel.shatteredpixeldungeon.items.Amulet$1
- com.shatteredpixel.shatteredpixeldungeon.items.Amulet$2
-com/shatteredpixel/shatteredpixeldungeon/actors/mobs/DemonSpawner.java
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.DemonSpawner
-com/shatteredpixel/shatteredpixeldungeon/scenes/InterlevelScene.java
- com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene
- com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$1
- com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$2
- com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$3
- com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$4
- com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$5
- com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$6
- com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$Mode
- com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene$Phase
-com/shatteredpixel/shatteredpixeldungeon/items/potions/Potion.java
- com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion
- com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion$1
- com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion$2
- com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion$3
- com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion$PlaceHolder
- com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion$SeedToPotion
- com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion$SeedToPotion$1
-com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfCorruption.java
- com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfCorruption
-com/shatteredpixel/shatteredpixeldungeon/scenes/GameScene.java
- com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene
- com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene$1
- com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene$2
- com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene$3
- com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene$4
- com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene$5
- com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene$6
-com/shatteredpixel/shatteredpixeldungeon/Statistics.java
- com.shatteredpixel.shatteredpixeldungeon.Statistics
-com/shatteredpixel/shatteredpixeldungeon/windows/WndHero.java
- com.shatteredpixel.shatteredpixeldungeon.windows.WndHero
- com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$1
- com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$2
- com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$3
- com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$4
- com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$BuffsTab
- com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$BuffsTab$1
- com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$BuffsTab$BuffSlot
- com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$KilledTab
- com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$KilledTab$1
- com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$KilledTab$mobSlot
- com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$StatsTab
- com.shatteredpixel.shatteredpixeldungeon.windows.WndHero$TalentsTab
-com/shatteredpixel/shatteredpixeldungeon/items/spells/MagicalInfusion.java
- com.shatteredpixel.shatteredpixeldungeon.items.spells.MagicalInfusion
- com.shatteredpixel.shatteredpixeldungeon.items.spells.MagicalInfusion$Recipe
 com/shatteredpixel/shatteredpixeldungeon/ui/StatusPane.java
  com.shatteredpixel.shatteredpixeldungeon.ui.StatusPane
  com.shatteredpixel.shatteredpixeldungeon.ui.StatusPane$1
  com.shatteredpixel.shatteredpixeldungeon.ui.StatusPane$JournalButton
  com.shatteredpixel.shatteredpixeldungeon.ui.StatusPane$MenuButton
+com/shatteredpixel/shatteredpixeldungeon/levels/PollutedSewerLevel.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.PollutedSewerLevel
+ com.shatteredpixel.shatteredpixeldungeon.levels.PollutedSewerLevel$Sink
+ com.shatteredpixel.shatteredpixeldungeon.levels.PollutedSewerLevel$Sink$1
+ com.shatteredpixel.shatteredpixeldungeon.levels.PollutedSewerLevel$WaterParticle
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Mob.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Mob
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Mob$AiState
@@ -2721,57 +2603,175 @@ com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Mob.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Mob$Passive
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Mob$Sleeping
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Mob$Wandering
+com/shatteredpixel/shatteredpixeldungeon/levels/rooms/standard/StripedRoom.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.rooms.standard.StripedRoom
+com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Potential.java
+ com.shatteredpixel.shatteredpixeldungeon.items.armor.glyphs.Potential
+com/shatteredpixel/shatteredpixeldungeon/effects/particles/FlameParticle.java
+ com.shatteredpixel.shatteredpixeldungeon.effects.particles.FlameParticle
+ com.shatteredpixel.shatteredpixeldungeon.effects.particles.FlameParticle$1
+com/shatteredpixel/shatteredpixeldungeon/items/food/MeatPie.java
+ com.shatteredpixel.shatteredpixeldungeon.items.food.MeatPie
+ com.shatteredpixel.shatteredpixeldungeon.items.food.MeatPie$Recipe
+com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Ghoul.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Ghoul
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Ghoul$1
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Ghoul$GhoulLifeLink
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Ghoul$Sleeping
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Ghoul$Wandering
+com/shatteredpixel/shatteredpixeldungeon/effects/Lightning.java
+ com.shatteredpixel.shatteredpixeldungeon.effects.Lightning
+ com.shatteredpixel.shatteredpixeldungeon.effects.Lightning$Arc
+com/shatteredpixel/shatteredpixeldungeon/effects/Pushing.java
+ com.shatteredpixel.shatteredpixeldungeon.effects.Pushing
+ com.shatteredpixel.shatteredpixeldungeon.effects.Pushing$Effect
+com/shatteredpixel/shatteredpixeldungeon/items/food/ChargrilledMeat.java
+ com.shatteredpixel.shatteredpixeldungeon.items.food.ChargrilledMeat
+com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfCorrosion.java
+ com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfCorrosion
+com/shatteredpixel/shatteredpixeldungeon/ui/Icons.java
+ com.shatteredpixel.shatteredpixeldungeon.ui.Icons
+ com.shatteredpixel.shatteredpixeldungeon.ui.Icons$1
+com/shatteredpixel/shatteredpixeldungeon/actors/mobs/FetidRat.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.FetidRat
+com/shatteredpixel/shatteredpixeldungeon/actors/mobs/YogDzewa.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.YogDzewa
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.YogDzewa$Larva
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.YogDzewa$YogRipper
+com/shatteredpixel/shatteredpixeldungeon/items/potions/exotic/PotionOfAdrenalineSurge.java
+ com.shatteredpixel.shatteredpixeldungeon.items.potions.exotic.PotionOfAdrenalineSurge
+com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Buff.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff
+ com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff$buffType
+com/shatteredpixel/shatteredpixeldungeon/items/spells/BeaconOfReturning.java
+ com.shatteredpixel.shatteredpixeldungeon.items.spells.BeaconOfReturning
+ com.shatteredpixel.shatteredpixeldungeon.items.spells.BeaconOfReturning$1
+ com.shatteredpixel.shatteredpixeldungeon.items.spells.BeaconOfReturning$Recipe
+com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/Dart.java
+ com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.darts.Dart
+ com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.darts.Dart$1
+ com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.darts.Dart$1$1
+com/shatteredpixel/shatteredpixeldungeon/items/MerchantsBeacon.java
+ com.shatteredpixel.shatteredpixeldungeon.items.MerchantsBeacon
+com/shatteredpixel/shatteredpixeldungeon/levels/traps/GrippingTrap.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.traps.GrippingTrap
+com/shatteredpixel/shatteredpixeldungeon/levels/rooms/connection/MazeConnectionRoom.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.rooms.connection.MazeConnectionRoom
+com/shatteredpixel/shatteredpixeldungeon/ui/QuickRecipe.java
+ com.shatteredpixel.shatteredpixeldungeon.ui.QuickRecipe
+ com.shatteredpixel.shatteredpixeldungeon.ui.QuickRecipe$1
+ com.shatteredpixel.shatteredpixeldungeon.ui.QuickRecipe$2
+ com.shatteredpixel.shatteredpixeldungeon.ui.QuickRecipe$3
+ com.shatteredpixel.shatteredpixeldungeon.ui.QuickRecipe$4
+ com.shatteredpixel.shatteredpixeldungeon.ui.QuickRecipe$arrow
+com/shatteredpixel/shatteredpixeldungeon/effects/Splash.java
+ com.shatteredpixel.shatteredpixeldungeon.effects.Splash
+ com.shatteredpixel.shatteredpixeldungeon.effects.Splash$1
+ com.shatteredpixel.shatteredpixeldungeon.effects.Splash$SplashFactory
+com/shatteredpixel/shatteredpixeldungeon/levels/traps/SummoningTrap.java
+ com.shatteredpixel.shatteredpixeldungeon.levels.traps.SummoningTrap
+com/shatteredpixel/shatteredpixeldungeon/actors/blobs/Alchemy.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.blobs.Alchemy
+com/shatteredpixel/shatteredpixeldungeon/items/potions/PotionOfHealing.java
+ com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfHealing
+com/shatteredpixel/shatteredpixeldungeon/effects/SpellSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.effects.SpellSprite
+ com.shatteredpixel.shatteredpixeldungeon.effects.SpellSprite$1
+ com.shatteredpixel.shatteredpixeldungeon.effects.SpellSprite$Phase
+com/shatteredpixel/shatteredpixeldungeon/effects/particles/WindParticle.java
+ com.shatteredpixel.shatteredpixeldungeon.effects.particles.WindParticle
+ com.shatteredpixel.shatteredpixeldungeon.effects.particles.WindParticle$1
+ com.shatteredpixel.shatteredpixeldungeon.effects.particles.WindParticle$Wind
+com/shatteredpixel/shatteredpixeldungeon/items/artifacts/TimekeepersHourglass.java
+ com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TimekeepersHourglass
+ com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TimekeepersHourglass$1
+ com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TimekeepersHourglass$hourglassRecharge
+ com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TimekeepersHourglass$sandBag
+ com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TimekeepersHourglass$timeFreeze
+ com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TimekeepersHourglass$timeStasis
+com/shatteredpixel/shatteredpixeldungeon/actors/blobs/EternalFire.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.blobs.EternalFire
+com/shatteredpixel/shatteredpixeldungeon/actors/mobs/OldTengu.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.OldTengu
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.OldTengu$1
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.OldTengu$Hunting
+com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Shaman.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Shaman
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Shaman$BlueShaman
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Shaman$EarthenBolt
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Shaman$PurpleShaman
+ com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Shaman$RedShaman
+com/shatteredpixel/shatteredpixeldungeon/sprites/FetidRatSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.FetidRatSprite
+com/shatteredpixel/shatteredpixeldungeon/sprites/PiranhaSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.PiranhaSprite
+com/shatteredpixel/shatteredpixeldungeon/items/potions/brews/Brew.java
+ com.shatteredpixel.shatteredpixeldungeon.items.potions.brews.Brew
+com/shatteredpixel/shatteredpixeldungeon/plants/Blindweed.java
+ com.shatteredpixel.shatteredpixeldungeon.plants.Blindweed
+ com.shatteredpixel.shatteredpixeldungeon.plants.Blindweed$Seed
+com/shatteredpixel/shatteredpixeldungeon/actors/buffs/MagicalSleep.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.buffs.MagicalSleep
+com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfCorruption.java
+ com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfCorruption
+com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/tier1/TrainingWhip.java
+ com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.TrainingWhip
+com/shatteredpixel/shatteredpixeldungeon/messages/Languages.java
+ com.shatteredpixel.shatteredpixeldungeon.messages.Languages
+ com.shatteredpixel.shatteredpixeldungeon.messages.Languages$Status
+com/shatteredpixel/shatteredpixeldungeon/items/TomeOfMastery.java
+ com.shatteredpixel.shatteredpixeldungeon.items.TomeOfMastery
+ com.shatteredpixel.shatteredpixeldungeon.items.TomeOfMastery$1
+com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/DisplacingDart.java
+ com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.darts.DisplacingDart
 com/shatteredpixel/shatteredpixeldungeon/actors/mobs/Piranha.java
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Piranha
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Piranha$1
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Piranha$Hunting
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Piranha$Sleeping
  com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Piranha$Wandering
-com/shatteredpixel/shatteredpixeldungeon/actors/Actor.java
- com.shatteredpixel.shatteredpixeldungeon.actors.Actor
-com/shatteredpixel/shatteredpixeldungeon/actors/mobs/YogDzewa.java
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.YogDzewa
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.YogDzewa$Larva
- com.shatteredpixel.shatteredpixeldungeon.actors.mobs.YogDzewa$YogRipper
-com/shatteredpixel/shatteredpixeldungeon/actors/hero/Hero.java
- com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero
- com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero$1
- com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero$2
- com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero$3
- com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero$4
- com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero$5
- com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero$Doom
-com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Corrupting.java
- com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Corrupting
-com/shatteredpixel/shatteredpixeldungeon/GamesInProgress.java
- com.shatteredpixel.shatteredpixeldungeon.GamesInProgress
- com.shatteredpixel.shatteredpixeldungeon.GamesInProgress$1
- com.shatteredpixel.shatteredpixeldungeon.GamesInProgress$Info
-com/shatteredpixel/shatteredpixeldungeon/items/Gold.java
- com.shatteredpixel.shatteredpixeldungeon.items.Gold
-com/shatteredpixel/shatteredpixeldungeon/levels/Level.java
- com.shatteredpixel.shatteredpixeldungeon.levels.Level
- com.shatteredpixel.shatteredpixeldungeon.levels.Level$Feeling
- com.shatteredpixel.shatteredpixeldungeon.levels.Level$Respawner
-com/shatteredpixel/shatteredpixeldungeon/levels/LastLevel.java
- com.shatteredpixel.shatteredpixeldungeon.levels.LastLevel
- com.shatteredpixel.shatteredpixeldungeon.levels.LastLevel$CenterPieceVisuals
- com.shatteredpixel.shatteredpixeldungeon.levels.LastLevel$CenterPieceWalls
- com.shatteredpixel.shatteredpixeldungeon.levels.LastLevel$CustomFloor
-com/shatteredpixel/shatteredpixeldungeon/Dungeon.java
- com.shatteredpixel.shatteredpixeldungeon.Dungeon
- com.shatteredpixel.shatteredpixeldungeon.Dungeon$LimitedDrops
-com/shatteredpixel/shatteredpixeldungeon/Badges.java
- com.shatteredpixel.shatteredpixeldungeon.Badges
- com.shatteredpixel.shatteredpixeldungeon.Badges$1
- com.shatteredpixel.shatteredpixeldungeon.Badges$Badge
-com/shatteredpixel/shatteredpixeldungeon/levels/rooms/special/DemonSpawnerRoom.java
- com.shatteredpixel.shatteredpixeldungeon.levels.rooms.special.DemonSpawnerRoom
- com.shatteredpixel.shatteredpixeldungeon.levels.rooms.special.DemonSpawnerRoom$CustomFloor
-com/shatteredpixel/shatteredpixeldungeon/windows/WndResurrect.java
- com.shatteredpixel.shatteredpixeldungeon.windows.WndResurrect
- com.shatteredpixel.shatteredpixeldungeon.windows.WndResurrect$1
- com.shatteredpixel.shatteredpixeldungeon.windows.WndResurrect$2
-com/shatteredpixel/shatteredpixeldungeon/items/scrolls/ScrollOfMirrorImage.java
- com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfMirrorImage
- com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfMirrorImage$DelayedImageSpawner
+com/shatteredpixel/shatteredpixeldungeon/sprites/ElementalSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite$1
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite$Chaos
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite$Fire
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite$Frost
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite$NewbornFire
+ com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite$Shock
+com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Regeneration.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Regeneration
+com/shatteredpixel/shatteredpixeldungeon/scenes/RankingsScene.java
+ com.shatteredpixel.shatteredpixeldungeon.scenes.RankingsScene
+ com.shatteredpixel.shatteredpixeldungeon.scenes.RankingsScene$Record
+com/shatteredpixel/shatteredpixeldungeon/windows/WndInfoMob.java
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndInfoMob
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndInfoMob$MobTitle
+com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Insight.java
+ com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Insight
+com/shatteredpixel/shatteredpixeldungeon/windows/WndDocument.java
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndDocument
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndDocument$1
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndDocument$ListItem
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndDocument$docPage
+com/shatteredpixel/shatteredpixeldungeon/sprites/NewbornElementalSprite.java
+ com.shatteredpixel.shatteredpixeldungeon.sprites.NewbornElementalSprite
+com/shatteredpixel/shatteredpixeldungeon/Chrome.java
+ com.shatteredpixel.shatteredpixeldungeon.Chrome
+ com.shatteredpixel.shatteredpixeldungeon.Chrome$1
+ com.shatteredpixel.shatteredpixeldungeon.Chrome$Type
+com/shatteredpixel/shatteredpixeldungeon/items/keys/GoldenKey.java
+ com.shatteredpixel.shatteredpixeldungeon.items.keys.GoldenKey
+com/shatteredpixel/shatteredpixeldungeon/windows/WndInfoBuff.java
+ com.shatteredpixel.shatteredpixeldungeon.windows.WndInfoBuff
+com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/MeleeWeapon.java
+ com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.MeleeWeapon
+ com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.MeleeWeapon$1
+com/shatteredpixel/shatteredpixeldungeon/items/armor/RogueArmor.java
+ com.shatteredpixel.shatteredpixeldungeon.items.armor.RogueArmor
+ com.shatteredpixel.shatteredpixeldungeon.items.armor.RogueArmor$1
+com/shatteredpixel/shatteredpixeldungeon/items/journal/DocumentPage.java
+ com.shatteredpixel.shatteredpixeldungeon.items.journal.DocumentPage
+com/shatteredpixel/shatteredpixeldungeon/effects/particles/PitfallParticle.java
+ com.shatteredpixel.shatteredpixeldungeon.effects.particles.PitfallParticle
+ com.shatteredpixel.shatteredpixeldungeon.effects.particles.PitfallParticle$1
+ com.shatteredpixel.shatteredpixeldungeon.effects.particles.PitfallParticle$2
