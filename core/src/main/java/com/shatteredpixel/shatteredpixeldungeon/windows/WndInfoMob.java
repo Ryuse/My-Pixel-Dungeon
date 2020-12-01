@@ -61,7 +61,7 @@ public class WndInfoMob extends WndTitledMessage {
 
 			name.hardlight( TITLE_COLOR );
 			add( name );
-			
+
 			image = mob.sprite();
 			add( image );
 
@@ -75,8 +75,6 @@ public class WndInfoMob extends WndTitledMessage {
 			}
 
 
-
-
 			if(mob instanceof DriedRose.GhostHero && Dungeon.hero.heroClass == HeroClass.SUMMONER){
 				mobHP = PixelScene.renderTextBlock( mob.HP + "/", 4 );
 				add(mobHP);
@@ -87,27 +85,22 @@ public class WndInfoMob extends WndTitledMessage {
 			}
 
 		}
-		
+
 		@Override
 		protected void layout() {
-			
+
 			image.x = 0;
+			image.y = Math.max( 0, name.height() - image.height() );
 			if (Dungeon.hero.belongings.eyeEquipped()){
 				image.y = Math.max( 0, name.height() + health.height() - image.height() );
 			}
-			else{
-				image.y = Math.max( 0, name.height() - image.height() );
-			}
 
-
-			name.setPos(x + image.width + GAP,
-					image.height() > name.height() ? y +(image.height() - name.height()) / 2 : y);
+			name.setPos(x + image.width + GAP, image.height() > name.height() ? y +(image.height() - name.height()) / 2 : y);
+			height = name.bottom() + GAP;
 
 			if (Dungeon.hero.belongings.eyeEquipped()){
 				float w = width - image.width() - GAP;
-
 				health.setRect(image.width() + GAP, name.bottom() + GAP, w, health.height());
-
 				buffs.setPos(
 						name.right() + GAP-1,
 						name.bottom() - BuffIndicator.SIZE-2
@@ -122,7 +115,7 @@ public class WndInfoMob extends WndTitledMessage {
 				height = health.bottom() + GAP;
 			}
 
-			height = name.bottom()+ GAP;
+
 
 
 		}

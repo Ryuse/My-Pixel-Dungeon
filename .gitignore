@@ -11,6 +11,9 @@
 .gradle/
 build/
 release/
+android/build/
+core/build/
+services/
 
 
 # Local configuration file (sdk path, etc)

@@ -25,6 +25,7 @@ import com.shatteredpixel.shatteredpixeldungeon.Assets;
 import com.shatteredpixel.shatteredpixeldungeon.Badges;
 import com.shatteredpixel.shatteredpixeldungeon.Challenges;
 import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
+import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Eye;
 import com.shatteredpixel.shatteredpixeldungeon.items.ArmorKit;
 import com.shatteredpixel.shatteredpixeldungeon.items.BrokenSeal;
 import com.shatteredpixel.shatteredpixeldungeon.items.Generator;
@@ -41,6 +42,7 @@ import com.shatteredpixel.shatteredpixeldungeon.items.artifacts.Artifact;
 import com.shatteredpixel.shatteredpixeldungeon.items.artifacts.CapeOfThorns;
 import com.shatteredpixel.shatteredpixeldungeon.items.artifacts.CloakOfShadows;
 import com.shatteredpixel.shatteredpixeldungeon.items.artifacts.DriedRose;
+import com.shatteredpixel.shatteredpixeldungeon.items.artifacts.EyeOfWisdom;
 import com.shatteredpixel.shatteredpixeldungeon.items.artifacts.HornOfPlenty;
 import com.shatteredpixel.shatteredpixeldungeon.items.artifacts.TimekeepersHourglass;
 import com.shatteredpixel.shatteredpixeldungeon.items.bags.EquipmentPage;
@@ -274,34 +276,13 @@ public enum HeroClass {
 
 		(hero.belongings.weapon = new TrainingWhip()).identify();
 
-//		SummonerArmor sumArmor = new SummonerArmor();
-//		sumArmor.identify().collect();
-//		sumArmor.charge = 100;
-//		new ScrollOfMirrorImage().quantity(10).collect();
-//
-//		RingOfMight ring = new RingOfMight();
-//		ring.identify();
-//		ring.level(10);
-//		hero.belongings.rings_list.set(0, ring);
-//
-//		hero.STR += 100;
-//		hero.HTBoost = 1000;
-//		hero.additionalAttackSkill = 100;
-//		hero.additionalDefenseSkill = 100;
-//		hero.updateHT(true);
-//		hero.STR();
-//
-//		Generator.randomHelmet().collect();
-//		SummonerWhip sumWhip = new SummonerWhip();
-//		sumWhip.level(30);
-//		hero.belongings.weapon = sumWhip;
-
 		DriedRose driedRose = new DriedRose();
 		driedRose.identify();
 		driedRose.collect();
 		Generator.removeArtifact(((Artifact)driedRose).getClass());
 
-		hero.HT = hero.HP = 15;
+		devMode(hero);
+//		hero.HT = hero.HP = 15;
 //		hero.HP *= 0.75;
 //		hero.STR -= 1;
 
@@ -318,6 +299,36 @@ public enum HeroClass {
 		new PotionOfPurity().identify();
 		new PotionOfFrost().identify();
 
+	}
+
+	public static void devMode(Hero hero){
+		SummonerArmor sumArmor = new SummonerArmor();
+		sumArmor.identify();
+		sumArmor.charge = 100;
+		hero.belongings.armors_list.set(5, sumArmor);
+
+		new ScrollOfMirrorImage().quantity(10).collect();
+
+		EyeOfWisdom eye = new EyeOfWisdom();
+		eye.identify();
+		hero.belongings.artifacts_list.set(0, eye);
+
+		RingOfMight ring = new RingOfMight();
+		ring.identify();
+		ring.level(10);
+		hero.belongings.rings_list.set(0, ring);
+
+		hero.STR += 100;
+		hero.HTBoost = 1000;
+		hero.additionalAttackSkill = 100;
+		hero.additionalDefenseSkill = 100;
+		hero.updateHT(true);
+		hero.STR();
+
+		SummonerWhip sumWhip = new SummonerWhip();
+		sumWhip.identify();
+		sumWhip.level(30);
+		hero.belongings.weapon = sumWhip;
 	}
 
 	public String title() {
