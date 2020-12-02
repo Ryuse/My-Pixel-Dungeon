@@ -174,11 +174,16 @@ public class Dungeon {
 
 	public static List<Integer> sewers 				= Arrays.asList(1,2,3,4);
 	public static List<Integer> polluted_sewers 	= Arrays.asList(6,7,8,9);
+	public static int 			sewers_boss			= 10;
 	public static List<Integer> prison 				= Arrays.asList(11,12,13,14);
+	public static int 			prison_boss			= 15;
 	public static List<Integer> caves 				= Arrays.asList(16,17,18,19);
+	public static int 			caves_boss			= 20;
 	public static List<Integer> city 				= Arrays.asList(21,22,23,24);
+	public static int 			city_boss			= 25;
 	public static List<Integer> halls 				= Arrays.asList(27,28,29);
-
+	public static int 			halls_boss			= 30;
+	public static int 			amulet_level		= halls_boss+1;
 
 	public static void init() {
 
@@ -268,25 +273,25 @@ public class Dungeon {
 		else if(polluted_sewers.contains(depth)){
 			level = new PollutedSewerLevel();
 		}
-		else if(depth == 10){
+		else if(depth == sewers_boss){
 			level = new SewerBossLevel();
 		}
 		else if(prison.contains(depth)){
 			level = new PrisonLevel();
 		}
-		else if(depth == 15){
+		else if(depth == prison_boss){
 			level = new NewPrisonBossLevel();
 		}
 		else if(caves.contains(depth)){
 			level = new CavesLevel();
 		}
-		else if(depth == 20){
+		else if(depth == caves_boss){
 			level = new NewCavesBossLevel();
 		}
 		else if(city.contains(depth)){
 			level = new CityLevel();
 		}
-		else if(depth == 25){
+		else if(depth == city_boss){
 			level = new NewCityBossLevel();
 		}
 		else if(depth == 26){
@@ -307,11 +312,11 @@ public class Dungeon {
 		else if(halls.contains(depth)){
 			level = new HallsLevel();
 		}
-		else if(depth == 30){
+		else if(depth == halls_boss){
 			level = new NewHallsBossLevel();
 
 		}
-		else if(depth == 31){
+		else if(depth == amulet_level){
 			level = new LastLevel();
 		}
 		else{

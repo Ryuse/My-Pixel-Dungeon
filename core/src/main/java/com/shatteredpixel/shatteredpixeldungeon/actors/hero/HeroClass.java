@@ -281,8 +281,8 @@ public enum HeroClass {
 		driedRose.collect();
 		Generator.removeArtifact(((Artifact)driedRose).getClass());
 
-		devMode(hero);
-//		hero.HT = hero.HP = 15;
+//		devMode(hero);
+		hero.HT = hero.HP = 15;
 //		hero.HP *= 0.75;
 //		hero.STR -= 1;
 
@@ -318,10 +318,10 @@ public enum HeroClass {
 		ring.level(10);
 		hero.belongings.rings_list.set(0, ring);
 
-		hero.STR += 100;
+		hero.STR += 1000;
 		hero.HTBoost = 1000;
-		hero.additionalAttackSkill = 100;
-		hero.additionalDefenseSkill = 100;
+		hero.additionalAttackSkill = 1000;
+		hero.additionalDefenseSkill = 1000;
 		hero.updateHT(true);
 		hero.STR();
 

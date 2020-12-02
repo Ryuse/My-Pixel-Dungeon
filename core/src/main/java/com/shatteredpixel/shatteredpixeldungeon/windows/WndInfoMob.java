@@ -72,15 +72,15 @@ public class WndInfoMob extends WndTitledMessage {
 
 				buffs = new BuffIndicator( mob );
 				add( buffs );
-			}
 
-
-			if(mob instanceof DriedRose.GhostHero && Dungeon.hero.heroClass == HeroClass.SUMMONER){
 				mobHP = PixelScene.renderTextBlock( mob.HP + "/", 4 );
 				add(mobHP);
 				mobHT = PixelScene.renderTextBlock( Integer.toString(mob.HT), 4 );
 				add(mobHT);
+			}
 
+
+			if(mob instanceof DriedRose.GhostHero && Dungeon.hero.heroClass == HeroClass.SUMMONER){
 				isGhostHero = true;
 			}
 
@@ -106,11 +106,11 @@ public class WndInfoMob extends WndTitledMessage {
 						name.bottom() - BuffIndicator.SIZE-2
 				);
 
-				if(isGhostHero){
-					health.setRect(image.width() + GAP, name.bottom() + GAP, w, health.height()+1);
-					mobHP.setPos(health.left() + 1, health.top());
-					mobHT.setPos(mobHP.left() + mobHP.width(), health.top());
-				}
+//				if(isGhostHero){
+				health.setRect(image.width() + GAP, name.bottom() + GAP, w, health.height()+1);
+				mobHP.setPos(health.left() + 1, health.top());
+				mobHT.setPos(mobHP.left() + mobHP.width(), health.top());
+//				}
 
 				height = health.bottom() + GAP;
 			}

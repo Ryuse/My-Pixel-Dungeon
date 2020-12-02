@@ -128,7 +128,6 @@ public class DriedRose extends Artifact {
 	public int exp = 0;
 	public int lvl = 1;
 
-	public static final int MAX_LEVEL = (int)(Dungeon.hero.MAX_LEVEL * 1.5);
 
 	public static final String AC_SUMMON = "SUMMON";
 	public static final String AC_DIRECT = "DIRECT";
@@ -621,6 +620,7 @@ public class DriedRose extends Artifact {
 		}
 
 		public void earnExp( int exp, Class source ) {
+			int MAX_LEVEL = (int)((Dungeon.hero.MAX_LEVEL + Dungeon.hero.additionalLvl)* 1.5);
 
 			rose.exp += exp;
 
@@ -960,15 +960,18 @@ public class DriedRose extends Artifact {
 					yell( Messages.get( this, "dialogue_sewers_" + variant ));
 					break;
 				case 1:
-					yell( Messages.get( this, "dialogue_prison_" + variant ));
+					yell( Messages.get( this, "dialogue_polluted_sewers_" + variant ));
 					break;
 				case 2:
-					yell( Messages.get( this, "dialogue_caves_" + variant ));
+					yell( Messages.get( this, "dialogue_prison_" + variant ));
 					break;
 				case 3:
+					yell( Messages.get( this, "dialogue_caves_" + variant ));
+					break;
+				case 4:
 					yell( Messages.get( this, "dialogue_city_" + variant ));
 					break;
-				case 4: default:
+				case 5: default:
 					yell( Messages.get( this, "dialogue_halls_" + variant ));
 					break;
 			}

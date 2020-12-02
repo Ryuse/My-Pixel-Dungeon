@@ -50,53 +50,6 @@ import java.util.List;
 
 public class Bestiary {
 
-	public static Class<?>[] sewerMobs = new Class<?>[]{
-			Rat.class, // Albino Rat
-			Snake.class,
-			Gnoll.class,
-			Crab.class,
-			Swarm.class
-	};
-
-	public static float[] sewerMobsProb = new float[]{
-			5 - Dungeon.depth,
-			4 - Dungeon.depth,
-			Dungeon.depth - 1,
-			Dungeon.depth - 2,
-			Dungeon.depth - 3
-	};
-
-	public static Class<?>[] pollutedSewerMobs = new Class<?>[]{
-			PollutedRat.class, // Fetid Rat
-			Swarm.class,
-			PollutedCrab.class,
-			Slime.class,
-			CausticSlime.class,
-	};
-
-	public static float[] pollutedSewerMobsProb = new float[]{
-			10 - Dungeon.depth,
-			9 - Dungeon.depth,
-			Dungeon.depth - 6,
-			Dungeon.depth - 7,
-			Dungeon.depth - 8
-	};
-
-	public static Class<?>[] prisonMobs = new Class<?>[]{
-			Skeleton.class,
-			Thief.class, // Bandit
-			Guard.class,
-			DM100.class,
-			Necromancer.class,
-	};
-
-	public static float[] prisonMobsProb = new float[]{
-			15 - Dungeon.depth,
-			14 - Dungeon.depth,
-			Dungeon.depth - 11,
-			Dungeon.depth - 12,
-			Dungeon.depth - 13
-	};
 
 	public static ArrayList<Class<? extends Mob>> getMobRotation( int depth ){
 		ArrayList<Class<? extends Mob>> mobs = standardMobRotation( depth );
@@ -108,7 +61,53 @@ public class Bestiary {
 	
 	//returns a rotation of standard mobs, unshuffled.
 	private static ArrayList<Class<? extends Mob>> standardMobRotation( int depth ){
+		Class<?>[] sewerMobs = new Class<?>[]{
+				Rat.class, // Albino Rat
+				Snake.class,
+				Gnoll.class,
+				Crab.class,
+				Swarm.class
+		};
 
+		float[] sewerMobsProb = new float[]{
+				5 - Dungeon.depth,
+				4 - Dungeon.depth,
+				Dungeon.depth - 1,
+				Dungeon.depth - 2,
+				Dungeon.depth - 3
+		};
+
+		Class<?>[] pollutedSewerMobs = new Class<?>[]{
+				PollutedRat.class, // Fetid Rat
+				Swarm.class,
+				PollutedCrab.class,
+				Slime.class,
+				CausticSlime.class,
+		};
+
+		float[] pollutedSewerMobsProb = new float[]{
+				10 - Dungeon.depth,
+				9 - Dungeon.depth,
+				Dungeon.depth - 6,
+				Dungeon.depth - 7,
+				Dungeon.depth - 8
+		};
+
+		Class<?>[] prisonMobs = new Class<?>[]{
+				Skeleton.class,
+				Thief.class, // Bandit
+				Guard.class,
+				DM100.class,
+				Necromancer.class,
+		};
+
+		float[] prisonMobsProb = new float[]{
+				15 - Dungeon.depth,
+				14 - Dungeon.depth,
+				Dungeon.depth - 11,
+				Dungeon.depth - 12,
+				Dungeon.depth - 13
+		};
 
 		ArrayList<Class<? extends Mob>> moblist = new ArrayList<>();
 

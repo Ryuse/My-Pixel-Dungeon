@@ -442,11 +442,15 @@ public class Hero extends Char {
 				accuracy *= 1.5f;
 			}
 		}
-		
+
+		int atkSkill = attackSkill + additionalAttackSkill;
+
+		float healthPercentage = (float) HP/HT;
+
 		if (wep != null) {
-			return (int)((attackSkill + additionalAttackSkill) * accuracy * wep.accuracyFactor( this ));
+			return (int)(atkSkill * accuracy * wep.accuracyFactor( this ) * healthPercentage);
 		} else {
-			return (int)((attackSkill + additionalAttackSkill) * accuracy);
+			return (int)(atkSkill * accuracy * healthPercentage);
 		}
 	}
 	
@@ -466,7 +470,8 @@ public class Hero extends Char {
 				evasion = belongings.armors_list.get(i).evasionFactor(this, evasion);
 			}
 		}
-
+		float healthPercentage = (float) HP/HT;
+		evasion *= healthPercentage;
 		return Math.round(evasion);
 	}
 

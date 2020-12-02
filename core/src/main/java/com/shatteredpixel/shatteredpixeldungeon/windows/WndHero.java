@@ -172,27 +172,42 @@ public class WndHero extends WndTabbed {
 
 			pos = title.bottom() + GAP;
 
+			String heroHP = withSuffix(hero.HP);
+			String heroHTBoost = withSuffix(hero.HTBoost);
+			String heroHTNoBoost = withSuffix(hero.HT-hero.HTBoost);
+			String heroHT = withSuffix(hero.HT);
+			if(Dungeon.hero.belongings.eyeEquipped()){
+				if (hero.shielding() > 0) statSlot( Messages.get(this, "health"),  heroHP + "+" + hero.shielding() + "/" + heroHTNoBoost + " (+" + heroHTBoost + ")" );
+				else statSlot( Messages.get(this, "health"), heroHP + "/" + heroHTNoBoost + " (+" + heroHTBoost + ")" );
+			}
+			else{
+				if (hero.shielding() > 0) statSlot( Messages.get(this, "health"), heroHP + "+" + hero.shielding() + "/" + heroHTNoBoost);
+				else statSlot( Messages.get(this, "health"), heroHP + "/" + heroHT);
+			}
 
-			if (hero.shielding() > 0) statSlot( Messages.get(this, "health"), hero.HP + "+" + hero.shielding() + "/" + (hero.HT-hero.HTBoost) + " (+" + hero.HTBoost + ")" );
-			else statSlot( Messages.get(this, "health"), (hero.HP) + "/" + (hero.HT-hero.HTBoost) + " (+" + hero.HTBoost + ")" );
-
-			statSlot( Messages.get(this, "str"), hero.STR() );
-
-
+			String heroSTR = withSuffix(hero.STR());
+			statSlot( Messages.get(this, "str"), heroSTR );
+			float healthPercentage = (float) hero.HP/hero.HT;
 
 			if(Dungeon.hero.belongings.eyeEquipped()){
+				int atkSkill = (int) (hero.attackSkill*healthPercentage);
+				int addAtkSkill = (int) (hero.additionalAttackSkill*healthPercentage);
+
 				if(hero.additionalAttackSkill > 0){
-					statSlot( Messages.get(this, "attack_skill"), (hero.attackSkill+hero.additionalAttackSkill) + " (+" + hero.additionalAttackSkill + ")" );
+					statSlot( Messages.get(this, "attack_skill"), (atkSkill) + " (+" + withSuffix(addAtkSkill) + ")" );
 				}
 				else{
-					statSlot( Messages.get(this, "attack_skill"), hero.attackSkill );
+					statSlot( Messages.get(this, "attack_skill"), atkSkill);
 				}
 
+				int defSkill = (int) (hero.defenseSkill*healthPercentage);
+				int addDefSkill = (int) (hero.additionalDefenseSkill*healthPercentage);
+
 				if(hero.additionalDefenseSkill > 0){
-					statSlot( Messages.get(this, "defense_skill"), (hero.defenseSkill+hero.additionalDefenseSkill) + " (+" + hero.additionalDefenseSkill + ")" );
+					statSlot( Messages.get(this, "defense_skill"), (defSkill) + " (+" + withSuffix(addDefSkill) + ")" );
 				}
 				else{
-					statSlot( Messages.get(this, "defense_skill"), hero.defenseSkill );
+					statSlot( Messages.get(this, "defense_skill"), defSkill );
 				}
 
 				pos += GAP;
@@ -216,7 +231,7 @@ public class WndHero extends WndTabbed {
 
 			pos += GAP;
 
-			statSlot( Messages.get(this, "gold"), Statistics.goldCollected );
+			statSlot( Messages.get(this, "gold"), withSuffix(Statistics.goldCollected) );
 			statSlot( Messages.get(this, "depth"), Statistics.deepestFloor );
 
 			pos += GAP;
@@ -563,4 +578,11 @@ public class WndHero extends WndTabbed {
 		}
 	}
 
+	public static String withSuffix(long count) {
+		if (count < 1000) return "" + count;
+		int exp = (int) (Math.log(count) / Math.log(1000));
+		return String.format("%.1f%c",
+				count / Math.pow(1000, exp),
+				"KMGTPE".charAt(exp-1));
+	}
 }
