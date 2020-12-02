@@ -109,64 +109,100 @@ public class Bestiary {
 				Dungeon.depth - 13
 		};
 
+		Class<?>[] caveMobs = new Class<?>[]{
+				Bat.class,
+				Brute.class, // Armored Brute
+				Shaman.class,
+				Spinner.class,
+				DM200.class,
+		};
+
+		float[] caveMobsProb = new float[]{
+				20 - Dungeon.depth,
+				19 - Dungeon.depth,
+				Dungeon.depth - 16,
+				Dungeon.depth - 17,
+				Dungeon.depth - 18
+		};
+
+		Class<?>[] cityMobs = new Class<?>[]{
+				Ghoul.class,
+				Elemental.random(),
+				Warlock.class,
+				Monk.class, // Senior
+				Golem.class,
+		};
+
+		float[] cityMobsProb = new float[]{
+				25 - Dungeon.depth,
+				24 - Dungeon.depth,
+				Dungeon.depth - 21,
+				Dungeon.depth - 22,
+				Dungeon.depth - 23
+		};
+
+		Class<?>[] hallsMobs = new Class<?>[]{
+				RipperDemon.class,
+				Succubus.class,
+				Eye.class, // Bandit
+				Scorpio.class,
+//				Scorpio.class,
+		};
+
+		float[] hallsMobsProb = new float[]{
+				30 - Dungeon.depth,
+				29 - Dungeon.depth,
+				Dungeon.depth - 26,
+				Dungeon.depth - 27,
+//				Dungeon.depth - 28
+		};
+//
+//		return new ArrayList<>(Arrays.asList(
+//				Succubus.class,
+//				Eye.class, Eye.class,
+//				Scorpio.class, Scorpio.class, Scorpio.class));
+
 		ArrayList<Class<? extends Mob>> moblist = new ArrayList<>();
+
+		Class<?>[] mobs = new Class[0];
+		float[] mobChances = new float[0];
 
 		if(Dungeon.sewers.contains(depth))
 		{
-
-			for(int i = 0; i < sewerMobs.length; i++) {
-				if (sewerMobsProb[i] > 0){
-					for(int j = 0; j < sewerMobsProb[i]; j++){
-						moblist.add((Class<? extends Mob>) sewerMobs[i]);
-					}
-				}
-			}
-
-			return moblist;
+			mobs = sewerMobs;
+			mobChances = sewerMobsProb;
 		}
 		else if(Dungeon.polluted_sewers.contains(depth)){
-			for(int i = 0; i < pollutedSewerMobs.length; i++) {
-				if (pollutedSewerMobsProb[i] > 0){
-					for(int j = 0; j < pollutedSewerMobsProb[i]; j++){
-						moblist.add((Class<? extends Mob>) pollutedSewerMobs[i]);
-					}
-				}
-			}
-			return moblist;
+			mobs = pollutedSewerMobs;
+			mobChances = pollutedSewerMobsProb;
 		}
 		else if(Dungeon.prison.contains(depth)){
-			return new ArrayList<>(Arrays.asList(
-					Skeleton.class, Skeleton.class,
-					Thief.class,
-					DM100.class, DM100.class,
-					Guard.class, Guard.class,
-					Necromancer.class));
+			mobs = prisonMobs;
+			mobChances = prisonMobsProb;
 		}
 		else if(Dungeon.caves.contains(depth)){
-			return new ArrayList<>(Arrays.asList(
-					Bat.class,
-					Brute.class, Brute.class,
-					Shaman.random(), Shaman.random(),
-					Spinner.class, Spinner.class,
-					DM200.class));
+			mobs = caveMobs;
+			mobChances = caveMobsProb;
 		}
 		else if(Dungeon.city.contains(depth)){
-			return new ArrayList<>(Arrays.asList(
-					Ghoul.class,
-					Elemental.random(),
-					Warlock.class, Warlock.class,
-					Monk.class, Monk.class,
-					Golem.class));
+			mobs = cityMobs;
+			mobChances = cityMobsProb;
 		}
 		else if(Dungeon.halls.contains(depth)){
-			return new ArrayList<>(Arrays.asList(
-					Succubus.class,
-					Eye.class, Eye.class,
-					Scorpio.class, Scorpio.class, Scorpio.class));
+			mobs = hallsMobs;
+			mobChances = hallsMobsProb;
 		}
-		else{
-			return new ArrayList<>(Arrays.asList(Rat.class, Rat.class, Rat.class, Snake.class));
+
+		for(int i = 0; i < mobs.length; i++) {
+			if (mobChances[i] > 0){
+				for(int j = 0; j < mobChances[i]; j++){
+					moblist.add((Class<? extends Mob>) mobs[i]);
+				}
+			}
 		}
+
+		return moblist;
+
 //		switch(depth){
 //
 //			// Sewers
